@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS scape_db;
+CREATE DATABASE scape_db;
