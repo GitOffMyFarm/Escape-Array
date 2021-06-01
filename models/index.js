@@ -1,6 +1,6 @@
 const User = require('./User');
 const City = require('./City');
-const NightOut = require('./Night-out');
+const Entertainment = require('./Entertainment');
 const Stay = require('./Stay');
 const Eat = require('./Eatt');
 const Itinerary= require('./Itinerary');
@@ -14,7 +14,7 @@ User.hasMany(Itinerary, {
 Itinerary.belongsTo(User, {
   foreignKey: 'user_id'
 });
-NightOut.belongsToMany(User, {
+Entertainment.belongsToMany(User, {
     through: {
         model: Itinerary,
         unique: false,
@@ -50,7 +50,7 @@ NightOut.belongsToMany(User, {
     },
     as: "stayUser"
   });
-  User.hasMany(NightOut, {
+  User.hasMany(Entertainment, {
     through: {
         model: Itinerary,
         unique: false,
@@ -58,7 +58,7 @@ NightOut.belongsToMany(User, {
     as: "nightOutUser"
   });
   
-City.hasMany(NightOut, {
+City.hasMany(Entertainment, {
     foreignKey: 'city_id'
 })
 City.hasMany(Stay, {
@@ -67,7 +67,7 @@ City.hasMany(Stay, {
 City.hasMany(Eat, {
     foreignKey: 'city_id'
 })
-NightOut.belongsTo(City, {
+Entertainment.belongsTo(City, {
     foreignKey: 'city_id'
 })
 Stay.belongsTo(City, {
