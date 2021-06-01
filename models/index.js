@@ -2,7 +2,7 @@ const User = require('./User');
 const City = require('./City');
 const Entertainment = require('./Entertainment');
 const Stay = require('./Stay');
-const Eat = require('./Eatt');
+const Eat = require('./Eat');
 const Itinerary= require('./Itinerary');
 
 
