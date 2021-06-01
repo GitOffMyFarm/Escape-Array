@@ -47,4 +47,6 @@ City.init(
         underscored: true,
         modelName: 'city'
       }
-)
+);
+
+modules.export = City;
