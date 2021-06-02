@@ -4,52 +4,6 @@ const sequelize = require('../config/connection');
 class City extends Model {}
 
 City.init(
-<<<<<<< HEAD
-  {
-  //   id: {
-  //     type: DataTypes.INTEGER,
-  //     allowNull: false,
-  //     primaryKey: true,
-  //     autoIncrement: true,
-  //   },
-  //   name: {
-  //     type: DataTypes.STRING,
-  //     allowNull: false,
-  //   },
-  //   link: {
-  //     type: DataTypes.STRING,
-  //     allowNull:false
-
-  //   },
-  //   summary: {
-  //       type: DataTypes.STRING,
-  //       allowNull: false
-  
-  //   },
-  //   point: {
-  //       type: DataTypes.INTEGER,
-  //       allowNull:false,
-  //   },
-  //   city: {
-  //     type: DataTypes.STRING,
-  //     references: {
-  //       model: "city",
-  //       key: "id"
-
-  //     }
-
-  //   },
-    
-  // },
-  // {
-  //   sequelize,
-  //   timestamps: false,
-  //   freezeTableName: true,
-  //   underscored: true,
-  //   modelName: 'city',
-  }
-);
-=======
     {
         id: {
             type: DataTypes.INTEGER,
@@ -96,4 +50,3 @@ City.init(
 );
 
 modules.export = City;
->>>>>>> 6232a89d06750da019cd85171a1c770e84a79070
