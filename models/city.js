@@ -49,4 +49,4 @@ City.init(
       }
 );
 
-modules.export = City;
+module.exports = City;
