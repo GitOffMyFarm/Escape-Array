@@ -10,45 +10,41 @@ Stay.init(
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
-    },
-    name: {
+  },
+  name: {
       type: DataTypes.STRING,
       allowNull: false,
-    },
-    stay_id: {
-      type: DataTypes.INTEGER,
-
-    },
-    address: {
-        type: DataTypes.STRING,
-        allowNull: false
-    },
-    City: {
-        type: DataTypes.STRING,
-        allowNull:false
-    },
-    State: {
-        type: DataTypes.STRING,
-        allowNull:false
-    },
-    Zip: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-
-    },
-    user_id: {
+  },
+  eats: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'user',
-        key: 'id',
-      },
-    },
+          model: 'eat',
+          key: 'id',
+          unique: false
+      }
   },
-  {
-    sequelize,
-    timestamps: false,
-    freezeTableName: true,
-    underscored: true,
-    modelName: 'stay',
+  stays: {
+      type: DataTypes.INTEGER,
+      references: {
+          model: 'stay',
+          key: 'id',
+          unique: false,
+      }
+  },
+  entertainment: {
+      type: DataTypes.INTEGER,
+      references: {
+          model: 'entertainment',
+          key: 'id',
+          unique: false,
+      }
   }
+},
+{
+  sequelize,
+  timestamps: false,
+  freezeTableName: true,
+  underscored: true,
+  modelName: 'stay'
+}
 );

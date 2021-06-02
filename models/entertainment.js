@@ -47,6 +47,6 @@ NightOut.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'NightOut',
+    modelName: 'Entertainment',
   }
 );
