@@ -15,26 +15,24 @@ Stay.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    stay_id: {
+    link: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    summary: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    points: {
       type: DataTypes.INTEGER,
-
+      allowNull: false,
     },
-    address: {
-        type: DataTypes.STRING,
-        allowNull: false
-    },
-    City: {
-        type: DataTypes.STRING,
-        allowNull:false
-    },
-    State: {
-        type: DataTypes.STRING,
-        allowNull:false
-    },
-    Zip: {
+    city_id: {
         type: DataTypes.INTEGER,
-        allowNull: false
-
+        references: {
+          model: 'city',
+          key: 'id',
+        }
     },
     user_id: {
       type: DataTypes.INTEGER,
@@ -52,3 +50,5 @@ Stay.init(
     modelName: 'stay',
   }
 );
+
+module.exports = Stay;

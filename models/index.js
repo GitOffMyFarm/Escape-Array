@@ -3,7 +3,7 @@ const City = require('./City');
 const Entertainment = require('./entertainment');
 const Stay = require('./stay');
 const Eat = require('./eat');
-const Itinerary= require('./itinerary');
+const Itenirary= require('./itenirary');
 
 
 User.hasMany(Itinerary, {
@@ -11,26 +11,26 @@ User.hasMany(Itinerary, {
   onDelete: 'CASCADE'
 });
 
-Itinerary.belongsTo(User, {
+Itenirary.belongsTo(User, {
   foreignKey: 'user_id'
 });
 Entertainment.belongsToMany(User, {
     through: {
-        model: Itinerary,
+        model: Itenirary,
         unique: false,
     },
     as: "userEntertainment"
   });
   Stay.belongsToMany(User, {
     through: {
-        model: Itinerary,
+        model: Itenirary,
         unique: false,
     },
     as: "userStay"
   });
   Eat.belongsToMany(User, {
     through: {
-        model: Itinerary,
+        model: Itenirary,
         unique: false,
     },
     as: "userEat"
@@ -38,21 +38,21 @@ Entertainment.belongsToMany(User, {
 
   User.hasMany(Eat, {
     through: {
-        model: Itinerary,
+        model: Itenirary,
         unique: false,
     },
     as: "eatUser"
   });
   User.hasMany(Stay, {
     through: {
-        model: Itinerary,
+        model: Itenirary,
         unique: false,
     },
     as: "stayUser"
   });
   User.hasMany(Entertainment, {
     through: {
-        model: Itinerary,
+        model: Itenirary,
         unique: false,
     },
     as: "entertainmentUser"
@@ -79,4 +79,4 @@ Eat.belongsTo(City, {
 
 
 
-module.exports = { User, Project };
+module.exports = { User, Eat, Stay, Entertainment, Itenirary, City };
