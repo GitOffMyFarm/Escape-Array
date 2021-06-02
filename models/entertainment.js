@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Stay extends Model {}
+class NightOut extends Model {}
 
-Stay.init(
+NightOut.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -15,12 +15,11 @@ Stay.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    stay_id: {
+    eatary_id: {
       type: DataTypes.INTEGER,
-
     },
     address: {
-        type: DataTypes.STRING,
+        type: DataTypes.INTEGER.STRING,
         allowNull: false
     },
     City: {
@@ -33,8 +32,7 @@ Stay.init(
     },
     Zip: {
         type: DataTypes.INTEGER,
-        allowNull: false
-
+        allowNull:false
     },
     user_id: {
       type: DataTypes.INTEGER,
@@ -49,6 +47,6 @@ Stay.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'stay',
+    modelName: 'NightOut',
   }
 );
