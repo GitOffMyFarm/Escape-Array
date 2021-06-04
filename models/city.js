@@ -15,30 +15,6 @@ City.init(
             type: DataTypes.STRING,
             allowNull: false,
         },
-        eats: {
-            type: DataTypes.INTEGER,
-            references: {
-                model: 'eat',
-                key: 'id',
-                unique: false
-            }
-        },
-        stays: {
-            type: DataTypes.INTEGER,
-            references: {
-                model: 'stay',
-                key: 'id',
-                unique: false,
-            }
-        },
-        entertainment: {
-            type: DataTypes.INTEGER,
-            references: {
-                model: 'entertainment',
-                key: 'id',
-                unique: false,
-            }
-        }
     },
     {
         sequelize,
