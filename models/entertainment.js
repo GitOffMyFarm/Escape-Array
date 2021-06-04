@@ -19,8 +19,12 @@ Entertainment.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    summary: {
+    picture: {
       type: DataTypes.STRING,
+      allowNull: false
+    },
+    summary: {
+      type: DataTypes.STRING(3000),
       allowNull: false
     },
     points: {

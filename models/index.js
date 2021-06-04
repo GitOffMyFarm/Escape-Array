@@ -5,8 +5,8 @@ const Stay = require('./stay');
 const Eat = require('./eat');
 const Itenirary= require('./itenirary');
 
-
-User.hasMany(Itinerary, {
+/*
+User.hasMany(Itenirary, {
   foreignKey: 'user_id',
   onDelete: 'CASCADE'
 });
@@ -57,25 +57,25 @@ Entertainment.belongsToMany(User, {
     },
     as: "entertainmentUser"
   });
-  
+  */
 City.hasMany(Entertainment, {
-    foreignKey: 'city_id'
-})
+    foreignKey: 'city_entertainment'
+});
 City.hasMany(Stay, {
-    foreignKey: 'city_id'
-})
+    foreignKey: 'city_stays'
+});
 City.hasMany(Eat, {
-    foreignKey: 'city_id'
-})
+    foreignKey: 'city_eats'
+});
 Entertainment.belongsTo(City, {
-    foreignKey: 'city_id'
-})
+    foreignKey: 'entertainment_city'
+});
 Stay.belongsTo(City, {
-    foreignKey: 'city_id'
-})
+    foreignKey: 'stay_city'
+});
 Eat.belongsTo(City, {
-    foreignKey: 'city_id'
-})
+    foreignKey: 'eat_city'
+});
 
 
 
