@@ -10,8 +10,8 @@ Stay.init(
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
-    },
-    name: {
+  },
+  name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -41,18 +41,27 @@ Stay.init(
     user_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'user',
-        key: 'id',
-      },
-    },
+          model: 'stay',
+          key: 'id',
+          unique: false,
+      }
   },
-  {
-    sequelize,
-    timestamps: false,
-    freezeTableName: true,
-    underscored: true,
-    modelName: 'stay',
+  entertainment: {
+      type: DataTypes.INTEGER,
+      references: {
+          model: 'entertainment',
+          key: 'id',
+          unique: false,
+      }
   }
+},
+{
+  sequelize,
+  timestamps: false,
+  freezeTableName: true,
+  underscored: true,
+  modelName: 'stay'
+}
 );
 
 module.exports = Stay;
