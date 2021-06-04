@@ -3,34 +3,34 @@ const City = require('./City');
 const Entertainment = require('./entertainment');
 const Stay = require('./stay');
 const Eat = require('./eat');
-const Itinerary= require('./itinerary');
+const Itenirary= require('./itenirary');
 
-
-User.hasMany(Itinerary, {
+/*
+User.hasMany(Itenirary, {
   foreignKey: 'user_id',
   onDelete: 'CASCADE'
 });
 
-Itinerary.belongsTo(User, {
+Itenirary.belongsTo(User, {
   foreignKey: 'user_id'
 });
 Entertainment.belongsToMany(User, {
     through: {
-        model: Itinerary,
+        model: Itenirary,
         unique: false,
     },
     as: "userEntertainment"
   });
   Stay.belongsToMany(User, {
     through: {
-        model: Itinerary,
+        model: Itenirary,
         unique: false,
     },
     as: "userStay"
   });
   Eat.belongsToMany(User, {
     through: {
-        model: Itinerary,
+        model: Itenirary,
         unique: false,
     },
     as: "userEat"
@@ -38,45 +38,45 @@ Entertainment.belongsToMany(User, {
 
   User.hasMany(Eat, {
     through: {
-        model: Itinerary,
+        model: Itenirary,
         unique: false,
     },
     as: "eatUser"
   });
   User.hasMany(Stay, {
     through: {
-        model: Itinerary,
+        model: Itenirary,
         unique: false,
     },
     as: "stayUser"
   });
   User.hasMany(Entertainment, {
     through: {
-        model: Itinerary,
+        model: Itenirary,
         unique: false,
     },
     as: "entertainmentUser"
   });
-  
+  */
 City.hasMany(Entertainment, {
-    foreignKey: 'city_id'
-})
+    foreignKey: 'city_entertainment'
+});
 City.hasMany(Stay, {
-    foreignKey: 'city_id'
-})
+    foreignKey: 'city_stays'
+});
 City.hasMany(Eat, {
-    foreignKey: 'city_id'
-})
+    foreignKey: 'city_eats'
+});
 Entertainment.belongsTo(City, {
-    foreignKey: 'city_id'
-})
+    foreignKey: 'entertainment_city'
+});
 Stay.belongsTo(City, {
-    foreignKey: 'city_id'
-})
+    foreignKey: 'stay_city'
+});
 Eat.belongsTo(City, {
-    foreignKey: 'city_id'
-})
+    foreignKey: 'eat_city'
+});
 
 
 
-module.exports = { User, Project };
+module.exports = { User, Eat, Stay, Entertainment, Itenirary, City };
