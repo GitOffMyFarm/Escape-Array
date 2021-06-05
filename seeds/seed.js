@@ -14,10 +14,11 @@ const seedDatabase = async () => {
     returning: true,
   });
   
-  const cities = await City.bulkCreate(cityData, {
-    individualHooks: true,
-    returning: true,
-  });
+  for (const city of cityData) {
+    await City.create({
+      ...city
+    });
+  }
 
   for (const stay of stayData) {
     await Stay.create({

@@ -5,7 +5,7 @@
         "picture": "https://www.chestnutasheville.com/wp-content/uploads/2016/09/bg-reserve.jpg",
         "summary": "Chestnut is a casual upscale restaurant specializing in American cuisine, with a menu that can include Southern items as well as ethnicities depending on what is fresh, local, and seasonal. We serve dinner 7 days a week.",
         "points": 25,
-        "city_id": 4
+        "city_id": 2
     },
     {
         "name": "Tupelo Honey",
@@ -13,7 +13,7 @@
         "picture": "https://media-cdn.tripadvisor.com/media/photo-s/0e/db/80/88/tupelo-honey-cafe-interior.jpg",
         "summary": "Tupelo Honey is a revival of Southern food and traditions rooted in the Carolina Mountains we call home. We craft brunches, lunches and suppers that bring family and friends around the table and allow for conversations and cocktails to linger longer than usual.",
         "points": 20,
-        "city_id": 4
+        "city_id": 2
     },
     {
         "name": "White Duck Taco Shop",
@@ -21,7 +21,7 @@
         "picture": "https://charlotteaxios-charlotteagenda.netdna-ssl.com/wp-content/uploads/2019/12/WDD_Four.jpg",
         "summary": "The flagship River Duck has flown a block away and now lives on the East Bank of the French Broad River … now bigger with more parking, indoor and outdoor seating, and literally waterfront! We are incredibly pet friendly and cool as a cucumber due to our new and fancy central heating and air.",
         "points": 15,
-        "city_id": 4
+        "city_id": 2
     },
     {
         "name": "The Funkatorium",
@@ -29,7 +29,7 @@
         "picture": "https://smokymountains.com/wp-content/uploads/2020/12/Asheville-Food-The-Funkatorium-9-1024x683.jpg",
         "summary": "Wicked Weed sour & funky beers are served in a rustic pub with a barrel room & a dog-friendly patio.",
         "points": 10,
-        "city_id": 4
+        "city_id": 2
     },
     {
         "name": "Fig",
@@ -37,7 +37,7 @@
         "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/FvEeWX0aQ4QLsD13pyrkCg/l.jpg",
         "summary": "New American cuisine with French touches served in easygoing bistro quarters with patio seating.",
         "points": 5,
-        "city_id": 4
+        "city_id": 2
     },
     {
         "name": "LUNCH.SUPPER!",
@@ -45,7 +45,7 @@
         "picture": "https://images.squarespace-cdn.com/content/v1/58b4e5e5e4fcb5991e6fe4a6/1488340199465-ABNQHFZ0CG7RKQNM1LC8/ke17ZwdGBToddI8pDm48kBk1Ey72DOIOL4VRW-8sZ6dZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwl2WQtF8wPv-fkqqmUWrxzbS6akMCyXeZUEMqBlzojHA8yK3zAsg7fIHnPeHfYxLA/image-asset.png",
         "summary": "Innovative American eats & weekend brunch in a rustic space with quirky & ornate fixtures.",
         "points": 25,
-        "city_id": 2
+        "city_id": 1
     },
     {
         "name": "The Broken Tulip",
@@ -53,7 +53,7 @@
         "picture": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/a/88/a8882ff0-4b4e-51d6-aef7-65c2cc37bd25/5b3a38222b0da.image.jpg?resize=1200%2C792",
         "summary": "Seasonal dishes using area-sourced ingredients served in snug quarters with a supper-club vibe.",
         "points": 20,
-        "city_id": 2
+        "city_id": 1
     },
     {
         "name": "Stella's",
@@ -61,7 +61,7 @@
         "picture": "https://media-cdn.tripadvisor.com/media/photo-s/0e/4f/f2/78/photo0jpg.jpg",
         "summary": "Modern Greek fare, including small plates, in a blond-wood minimalist space with a communal table.",
         "points": 15,
-        "city_id": 2
+        "city_id": 1
     },
     {
         "name": "Perly's",
@@ -69,7 +69,7 @@
         "picture": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/3/02/30221362-1633-11e3-be03-0019bb30f31a/52288e0f340d6.image.jpg",
         "summary": "Creative Jewish deli bites & dinners served in a funky, retro eatery decorated with old photos.",
         "points": 10,
-        "city_id": 2
+        "city_id": 1
     },
     {
         "name": "Secret Sandwich Society",
@@ -77,7 +77,7 @@
         "picture": "https://media1.fdncms.com/styleweekly/imager/u/original/14791064/food26_interior.jpg",
         "summary": "At Secret Sandwich Society, our mission is to create thoughtfully sourced foods, crafted with passion, meant to nourish and fulfill our guests.",
         "points": 5,
-        "city_id": 2
+        "city_id": 1
     },
     {
         "name": "Spork",
@@ -85,7 +85,7 @@
         "picture": "https://728929.smushcdn.com/621658/wp-content/uploads/2018/02/Spork_Alex-Jordan_RF_PC-8378.jpg?lossy=1&strip=1&webp=1",
         "summary": "Vibrant restaurant featuring Mexican eats, Asian fusion plates & craft cocktails in a stylish venue.",
         "points": 25,
-        "city_id": 5
+        "city_id": 3
     },
     {
         "name": "Zydeco Kitchen and Cocktails",
@@ -93,7 +93,7 @@
         "picture": "https://media-cdn.tripadvisor.com/media/photo-s/05/cc/a0/3e/zydeco-kitchen-cocktails.jpg",
         "summary": "Casual restaurant & bar with a patio serving meaty, Cajun-influenced American fare.",
         "points": 20,
-        "city_id": 5
+        "city_id": 3
     },
     {
         "name": "Chomp Chomp",
@@ -101,7 +101,7 @@
         "picture": "https://i1.wp.com/hellobendoregon.com/wp-content/uploads/2020/03/cc4.jpg?ssl=1",
         "summary": "Chomp Chomp defines a unique Pacific Northwest experience inspired by the Japanese Northwest. Enjoy a comfortable atmosphere and gently expand your culinary horizons while enjoying an excellent selection of local and Japanese craft brews, excellent traditional cocktails as well as mixology inspired by Japanese aromatics and citrus.",
         "points": 15,
-        "city_id": 5
+        "city_id": 3
     },
     {
         "name": "Deschutes Brewery and Public House",
@@ -109,7 +109,7 @@
         "picture": "https://d1o0i0v5q5lp8h.cloudfront.net/desbre/live/assets/locations/image/DeschutesBendPub_Summer1599083081-26923.jpg",
         "summary": "Offshoot brewpub of well-known craft brewery offering locavore fare for lunch & dinner.",
         "points": 10,
-        "city_id": 5
+        "city_id": 3
     },
     {
         "name": "Bangers and Brews",
@@ -117,7 +117,7 @@
         "picture": "https://www.onlyinyourstate.com/wp-content/uploads/2019/01/bangers-brews.jpg",
         "summary": "Counter serve spot offering a variety of gourmet Argentine-inflected sausages in a bollilo bun.",
         "points": 5,
-        "city_id": 5
+        "city_id": 3
     },
     {
         "name": "Wild Child",
@@ -125,7 +125,7 @@
         "picture": "https://rooftop-collective.com/wp-content/uploads/2020/10/23-683x1024.jpg",
         "summary": "A vibrant neighborhood Bistro and Cocktail Bar.",
         "points": 25,
-        "city_id": 3
+        "city_id": 4
     },
     {
         "name": "Bacon Bitch",
@@ -133,7 +133,7 @@
         "picture": "https://images.squarespace-cdn.com/content/v1/55467dc6e4b0ebaf8fab24a0/1601234624311-76DYLK7OXYRVTMJ7VJQP/ke17ZwdGBToddI8pDm48kFWxnDtCdRm2WA9rXcwtIYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcTSrQkGwCGRqSxozz07hWZrYGYYH8sg4qn8Lpf9k1pYMHPsat2_S1jaQY3SwdyaXg/_I0A8998.jpg?format=1500w",
         "summary": "Since 2017, Bacon Bitch has been serving classic American breakfast and brunch inspired by our love for bacon. ",
         "points": 20,
-        "city_id": 3
+        "city_id": 4
     },
     {
         "name": "The Urban Stillhouse",
@@ -141,7 +141,7 @@
         "picture": "https://images.otstatic.com/prod1/31308351/3/large.jpg",
         "summary": "The food menu is a marriage of new and traditional American cuisine featuring elevated takes on classic staples. Guests can expect weekly bourbon-inspired rotating specials and seasonal menu updates highlighting the wood-fired grill.",
         "points": 15,
-        "city_id": 3
+        "city_id": 4
     },
     {
         "name": "Sammy and Paco's",
@@ -149,7 +149,7 @@
         "picture": "https://cdn.cltampa.com/files/base/scomm/cltampa/image/2021/05/640w/Screen_Shot_2021_05_13_at_10.48.48_AM.609d3c845bb24.jpg",
         "summary": "Cute breakfast cafe spot, Their menu relies heavily on breakfast foods like avocado toast, bagels plus sandwiches and grab-and-go options. ",
         "points": 10,
-        "city_id": 3
+        "city_id": 4
     },
     {
         "name": "The Library",
@@ -157,7 +157,7 @@
         "picture": "https://stpetersburgfoodies.com/wp-content/uploads/2018/12/wj0mS9jSbW5TRmGpBew.jpg",
         "summary": "Polished eatery offering New American bites, brunch staples & craft cocktails, plus outdoor seating.",
         "points": 5,
-        "city_id": 3
+        "city_id": 4
     },
     {
         "name": "The Press",
@@ -165,7 +165,7 @@
         "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/faXmv23ofiQ5yemNlJ8WHw/o.jpg",
         "summary": "Warm, brick-exposed eatery offering American plates & comfort fare plus a full bar with cocktails.",
         "points": 25,
-        "city_id": 1
+        "city_id": 5
     },
     {
         "name": "FRIDA Southwest",
@@ -173,7 +173,7 @@
         "picture": "https://cdn2.newsok.biz/cache/w620-c9126eef2cf27cbd8a209c416e8044ee.jpg",
         "summary": "FRIDA southwest is inspired by the cuisine of Oklahoma, Santa Fe and northern Mexico in an architecturally unique, beautifully designed setting.",
         "points": 20,
-        "city_id": 1
+        "city_id": 5
     },
     {
         "name": "Black Walnut",
@@ -181,7 +181,7 @@
         "picture": "https://media-cdn.tripadvisor.com/media/photo-s/16/b5/7f/12/black-walnut-flat-iron.jpg",
         "summary": "Blending American cuisine with the neighborhoods rich cultural history, the menu is eclectic and vibrant.",
         "points": 15,
-        "city_id": 1
+        "city_id": 5
     },
     {
         "name": "Scratch Kitchen and Cocktails",
@@ -189,7 +189,7 @@
         "picture": "https://www.gannett-cdn.com/community-hub/marketplace/development/master/static/images/uploads/d6ef63ab-2b43-457f-ba4b-005d7b2e8258.jpg?width=800",
         "summary": "We spend our free time honing our knife skills, studying spices, dissecting spirits, and doing anything to better prepare daring, delicious feasts, because our reputation is forged in our kitchen and behind our bar.",
         "points": 10,
-        "city_id": 1
+        "city_id": 5
     },
     {
         "name": "Social Deck and Dining",
@@ -197,7 +197,7 @@
         "picture": "https://media1.fdncms.com/okgazette/imager/u/original/5441100/7w0a7073_1.jpg",
         "summary": "Social is an American Fusion menu inspired by the Pacific Northwest, you’ll find thoughtfully sourced and local ingredients inspiring daily brunch, social hour, and refined dinner menu.",
         "points": 5,
-        "city_id": 1
+        "city_id": 5
     },
     {
         "name": "Kitchen Sync",
