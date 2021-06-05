@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
    Entertainment.findAll({
       where: {
-        entertainment_id: req.params.id
+        id: req.params.id
       }
    }).then(entertainmentData=> res.json(entertainmentData))
       .catch(err => {
