@@ -209,10 +209,34 @@
     },
     {
         "name": "The Art Cellar",
-        "link": "https://wantecvr.com/",
-        "picture": "https://www.okcmoa.com/wp-content/uploads/2015/09/OKCMOA-glassart-piece.jpg",
-        "summary": "wantec VR is the ultimate family and friends entertainment destination with an unbelievable offer of full motion virtual reality, motorsport simulation and challenging shooting cinema.",
+        "link": "https://www.facebook.com/greenvilleartcellar/",
+        "picture": "https://www.greenvillechamber.org/images/Blog/Biz%20Celebrations/Art%20Cellar%20blog_gallery_lrg.jpg",
+        "summary": "The Art Cellar is an eclectic fine art and craft gallery located in downtown Greenville, South Carolina. The salon-style gallery features more than 50 local artists with talent across wide variety of mediums, including paintings, photography, ceramics, and handcrafted jewelry.",
         "points": 20,
+        "city_id": 6
+    },
+    {
+        "name": "Falls Park",
+        "link": "https://www.greenvillesc.gov/167/Falls-Park",
+        "picture": "https://www.greenvillesc.gov/ImageRepository/Path?filePath=%2Fdocuments%5CIntranet%5C30%5C31%2FFallsParkFall2_201504301402435489.png",
+        "summary": "Green space with scenic overlooks & nature trails, plus waterfalls & a pedestrian suspension bridge.",
+        "points": 15,
+        "city_id": 6
+    },
+    {
+        "name": "Tiny Town",
+        "link": "https://www.atlasobscura.com/places/tiny-town-easley-sc",
+        "picture": "https://pbs.twimg.com/media/CV_saxCW4AAhlea.jpg",
+        "summary": "A rapidly disappearing authentic bit of the old south.",
+        "points": 10,
+        "city_id": 6
+    },
+    {
+        "name": "Alchemy Comedy Theatre",
+        "link": "http://alchemycomedy.com/",
+        "picture": "https://lh3.googleusercontent.com/proxy/vrmKJTEgYW9ClyndA2TII_88Wcf27RVqPX8namNIqMZEmpIE79uk6nk_wfpVttnvxnR2vQ7gFJ3-LY-ucUggyf6xCeF-kMoDvMmViV8",
+        "summary": "Weekly sketch, improv & stand-up comedy performances at Coffee Underground theater.",
+        "points": 5,
         "city_id": 6
     }
 ]
