@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { City, User, Stay, Entertainment, Eat } = require('../models');
+const { City, User, Entertainment, Eat } = require('../models');
 
 router.get('/', (req, res) => {
    console.log(req.session);
@@ -12,14 +12,6 @@ router.get('/', (req, res) => {
          'city_id'
       ],
       include: [
-         {
-            model: Stay,
-            attributes: ['id', 'name', 'link', 'user_id'],
-            include: {
-               model: User,
-               attributes: ['username']
-            }
-         },
          {
              model: Eat,
              attributes: ['id', 'name', 'city_id', ]
@@ -69,14 +61,6 @@ router.get('/city/:id', (req, res) => {
         'city_id'
      ],
      include: [
-        {
-           model: Stay,
-           attributes: ['id', 'name', 'link', 'user_id'],
-           include: {
-              model: User,
-              attributes: ['username']
-           }
-        },
         {
             model: Eat,
             attributes: ['id', 'name', 'city_id', ]

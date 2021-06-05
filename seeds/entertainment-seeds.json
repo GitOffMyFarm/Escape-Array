@@ -1,17 +1,378 @@
 [
     {
-        "name": "Chestnut",
-        "link": "https://www.chestnutasheville.com/",
-        "picture": "https://www.chestnutasheville.com/wp-content/uploads/2016/09/bg-reserve.jpg",
-        "summary": "Chestnut is a casual upscale restaurant specializing in American cuisine, with a menu that can include Southern items as well as ethnicities depending on what is fresh, local, and seasonal. We serve dinner 7 days a week.",
-        "points": 25
+        "name": "Moogseum",
+        "link": "https://moogseum.org/",
+        "picture": "https://moogseum.org/wp-content/uploads/Moogseum-Gallery-Opening3.jpg",
+        "summary": "One-of-a-kind immersive, interactive museum where Bob Moog’s pioneering legacy and the science of sound comes alive to inspire people of all ages.",
+        "points": 25,
+        "city_id": 2
     },
     {
-        "name": "Tupelo Honey",
-        "link": "https://tupelohoneycafe.com/",
-        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/0e/db/80/88/tupelo-honey-cafe-interior.jpg",
-        "summary": "Tupelo Honey is a revival of Southern food and traditions rooted in the Carolina Mountains we call home. We craft brunches, lunches and suppers that bring family and friends around the table and allow for conversations and cocktails to linger longer than usual.",
+        "name": "The Odditorium",
+        "link": "https://www.ashevilleodditorium.com/",
+        "picture": "https://2.bp.blogspot.com/-nZq4j82gl8o/WBdOaNTXmmI/AAAAAAAAEew/1iE5PBNPdhIBNWcsit43sopRc51s69sUACLcB/s1600/odd02.jpg",
+        "summary": "No-frills neighborhood hangout hosting live bands & drag shows in a quirky vintage space.",
+        "points": 20,
+        "city_id": 2
+    },
+    {
+        "name": "Asheville Retrocade",
+        "link": "https://www.ashevilleretrocade.com/",
+        "picture": "https://10619-2.s.cdn12.com/rests/original/108_508402024.jpg",
+        "summary": "Hangout offering a vast range of vintage & modern video & arcade games, plus several beers on tap.",
+        "points": 15,
+        "city_id": 2
+    },
+    {
+        "name": "River and Arts District",
+        "link": "https://www.riverartsdistrict.com/",
+        "picture": "https://www.romanticasheville.com/sites/default/files/images/basic_page/river-arts-district-asheville-NC.jpg",
+        "summary": "The River Arts District in Asheville, North Carolina is an area of former industrial buildings located near the French Broad River, along Riverside Drive east of Interstate 240. Numerous artists have moved into the area and produce and display their works.",
+        "points": 10,
+        "city_id": 2
+    },
+    {
+        "name": "Pinball Museum",
+        "link": "https://pinball.ashevillepinball.com/",
+        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/14/f4/38/a7/20180902-152948-largejpg.jpg",
+        "summary": "All-you-can-play arcade featuring 75+ pinball machines & classic video games, plus beer & soda.",
+        "points": 5,
+        "city_id": 2
+    },
+    {
+        "name": "Virginia Museum of Fine Arts",
+        "link": "https://www.vmfa.museum/",
+        "picture": "https://images.squarespace-cdn.com/content/595d39d2d482e940948f8507/1502316815507-T9PSB3UO72XWZSCTH6OZ/?format=1500w&content-type=image%2Fjpeg",
+        "summary": "Public art museum, owned and operated by the Commonwealth of Virginia.",
+        "points": 25,
+        "city_id": 1
+    },
+    {
+        "name": "Lewis Ginter Botanical Gardens",
+        "link": "https://www.lewisginter.org/",
+        "picture": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/8/a4/8a46415e-8749-11ea-8aa6-078c2af78c4c/5ea4c2c5b1f16.image.jpg",
+        "summary": "Lewis Ginter Botanical Garden is a 50 acres, botanical garden in Richmond, Virginia's Lakeside neighborhood.",
         "points": 20,
         "city_id": 1
+    },
+    {
+        "name": "The Circuit",
+        "link": "https://thecircuitarcadebar.com/",
+        "picture": "https://s31832.pcdn.co/wp-content/uploads/2017/01/barcade-int-1024x650.jpg",
+        "summary": "Arcade games in an industrial space with counter-serve bar bites & craft beer from self-serve taps.",
+        "points": 15,
+        "city_id": 1
+    },
+    {
+        "name": "Hotel Greene",
+        "link": "https://www.hotelgreene.com/",
+        "picture": "https://richmondmagazine.com/downloads/26126/download/Lobby2HotelGreene_EileenMellon.jpg?cb=772101504c5c80016f5b4cbd82bc2028&w=640",
+        "summary": "Highfalutin' Indoor Mini Golf & Lobby Bar in Richmond, VA.",
+        "points": 10,
+        "city_id": 1
+    },
+    {
+        "name": "Slingshot",
+        "link": "https://slingshotgameclub.com/",
+        "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/lcF-TZv6z7__LRvfAPTF9A/l.jpg",
+        "summary": "Enjoy classic parlour games with a modern spin. These fan-favorites may look a bit different, but trust us — they’re even better than the originals.",
+        "points": 5,
+        "city_id": 1
+    },
+    {
+        "name": "Vector Volcano Arcade",
+        "link": "https://vectorvolcanoarcade.com/",
+        "picture": "https://ascent-architecture.com/wp-content/uploads/2018/12/VectorVolcano_AscentArchitecture.jpg",
+        "summary": "Vector Volcano Classic Arcade is a dedicated arcade with the best classic video arcade and pinball games of he 80's and 90's.",
+        "points": 25,
+        "city_id": 3
+    },
+    {
+        "name": "The High Desert Museum",
+        "link": "https://highdesertmuseum.org/",
+        "picture": "https://highdesertmuseum.org//wp-content/uploads/2018/10/Adm-1-exhibitions-page-e1538756820917.jpg",
+        "summary": "Discover the natural world and cultural history of the High Desert through artful exhibits, alluring animals, engaging programs and meaningful history.",
+        "points": 20,
+        "city_id": 3
+    },
+    {
+        "name": "Tower Theatre",
+        "link": "https://www.towertheatre.org/",
+        "picture": "https://www.towertheatre.org/tower_theater_05.jpg",
+        "summary": "The Tower Theatre is a concert hall and movie tower in Bend.",
+        "points": 15,
+        "city_id": 3
+    },
+    {
+        "name": "The Work House",
+        "link": "https://theworkhousebend.com/",
+        "picture": "https://media2.fdncms.com/bend/imager/u/zoom/2595949/the_workhouse_vertical_jpg-magnum.jpg",
+        "summary": "The Workhouse, as a whole, is more than art studios or a retail gallery- it is the vehicle for a movement. By creating a space with open, active work studios, a community work table that also holds creative arts classes, and housing a place of exchange between makers and buyers we believe we can use the power of creativity to build a stronger community and sustainable economy.",
+        "points": 10,
+        "city_id": 3
+    },
+    {
+        "name": "Studio Create",
+        "link": "https://studiocreatebend.com/",
+        "picture": "https://www.visitbend.com/wp-content/uploads/2018/04/tin-pan-alley-art-bend-1600.jpg",
+        "summary": "Studio Create is a d.i.y. art space for all ages and abilities located in Bend, OR. Explore paint-your-own-pottery, canvas painting, and more!",
+        "points": 5,
+        "city_id": 3
+    },
+    {
+        "name": "Shine St. Petersburg Mural Festival",
+        "link": "https://stpeteartsalliance.org/shine-mural-festival",
+        "picture": "https://stpeteartsalliance.org/images/SHINE/2018murals/2018_SHINE_Mural_Festival_Illsol.jpg",
+        "summary": "The annual SHINE® St. Petersburg Mural Festival illuminates the power of art in public spaces by revitalizing areas, inspiring dialogue, and uniting our community.",
+        "points": 25,
+        "city_id": 4
+    },
+    {
+        "name": "St Pete Pier",
+        "link": "https://stpetepier.org/",
+        "picture": "https://stpetecatalyst.com/wp-content/uploads/2020/06/new-pier.jpg",
+        "summary": "The St. Petersburg Pier, officially known as the St. Pete Pier, is a landmark pleasure pier extending into Tampa Bay from downtown St. Petersburg.",
+        "points": 20,
+        "city_id": 4
+    },
+    {
+        "name": "Imagine Museum",
+        "link": "https://www.imaginemuseum.com/",
+        "picture": "https://www.artgeek.io/api/media/5c06d0eb72a1460a46f7816b",
+        "summary": "Contemporary gallery showcasing works by American emerging & established studio glass artists.",
+        "points": 15,
+        "city_id": 4
+    },
+    {
+        "name": "Blueberry Patch",
+        "link": "http://www.blueberrypatch.org/",
+        "picture": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/64160921547497.56307f1aaf26b.JPG",
+        "summary": "Live music venue and retreat center.",
+        "points": 10,
+        "city_id": 4
+    },
+    {
+        "name": "The Vortex Bar and Game Room",
+        "link": "http://www.thevortexbar.com/",
+        "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/GeEezu8R5HdaxB6eWqg3WA/l.jpg",
+        "summary": "The Vortex Bar and Game Room is a fun hub with games for all ages and delicious craft beers, drafts and wine for the 21+ crowd.",
+        "points": 5,
+        "city_id": 4
+    },
+    {
+        "name": "Factory Obscura",
+        "link": "https://www.factoryobscura.com/",
+        "picture": "https://miro.medium.com/max/5600/1*zkQmVBG1oQcggo31gRHSvQ.jpeg",
+        "summary": "Factory Obscura is an Oklahoma City-based art collective creating immersive experiences that awaken wonder, build community, and make the world better.",
+        "points": 25,
+        "city_id": 5
+    },
+    {
+        "name": "Jedi OKC",
+        "link": "https://twitter.com/jediokc_club?lang=en",
+        "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/2TVB4ntsggWGeGPtH-mlRQ/348s.jpg",
+        "summary": "JediOKC is an eclectic group of Star Wars fans from Oklahoma (and sometimes beyond).",
+        "points": 20,
+        "city_id": 5
+    },
+    {
+        "name": "Momentum",
+        "link": "https://www.ovac-ok.org/momentum",
+        "picture": "https://annaleemedia.com/blog/wp-content/uploads/2012/04/pano1.jpg",
+        "summary": "The Oklahoma Visual Arts Coalition’s Momentum annually features Oklahoma artists ages 30 years and younger, working in diverse media. ",
+        "points": 15,
+        "city_id": 5
+    },
+    {
+        "name": "Flix Brewhouse",
+        "link": "https://www.flixbrewhouse.com/",
+        "picture": "https://www.velocityokc.com/clientuploads/directory/super_blog/flix_lobby_albuquerque.jpeg",
+        "summary": "Craft Beer. Great Food. The Latest Movies. Enhanced Safety Features.",
+        "points": 10,
+        "city_id": 5
+    },
+    {
+        "name": "OKC Museum of Art",
+        "link": "https://www.okcmoa.com/",
+        "picture": "https://www.okcmoa.com/wp-content/uploads/2015/09/OKCMOA-glassart-piece.jpg",
+        "summary": "OKCMOA is home to a host of immersive art exhibitions that change throughout the year.",
+        "points": 5,
+        "city_id": 5
+    },
+    {
+        "name": "Wantec VR",
+        "link": "https://wantecvr.com/",
+        "picture": "https://www.okcmoa.com/wp-content/uploads/2015/09/OKCMOA-glassart-piece.jpg",
+        "summary": "wantec VR is the ultimate family and friends entertainment destination with an unbelievable offer of full motion virtual reality, motorsport simulation and challenging shooting cinema.",
+        "points": 25,
+        "city_id": 6
+    },
+    {
+        "name": "The Art Cellar",
+        "link": "https://www.facebook.com/greenvilleartcellar/",
+        "picture": "https://www.greenvillechamber.org/images/Blog/Biz%20Celebrations/Art%20Cellar%20blog_gallery_lrg.jpg",
+        "summary": "The Art Cellar is an eclectic fine art and craft gallery located in downtown Greenville, South Carolina. The salon-style gallery features more than 50 local artists with talent across wide variety of mediums, including paintings, photography, ceramics, and handcrafted jewelry.",
+        "points": 20,
+        "city_id": 6
+    },
+    {
+        "name": "Falls Park",
+        "link": "https://www.greenvillesc.gov/167/Falls-Park",
+        "picture": "https://www.greenvillesc.gov/ImageRepository/Path?filePath=%2Fdocuments%5CIntranet%5C30%5C31%2FFallsParkFall2_201504301402435489.png",
+        "summary": "Green space with scenic overlooks & nature trails, plus waterfalls & a pedestrian suspension bridge.",
+        "points": 15,
+        "city_id": 6
+    },
+    {
+        "name": "Tiny Town",
+        "link": "https://www.atlasobscura.com/places/tiny-town-easley-sc",
+        "picture": "https://pbs.twimg.com/media/CV_saxCW4AAhlea.jpg",
+        "summary": "A rapidly disappearing authentic bit of the old south.",
+        "points": 10,
+        "city_id": 6
+    },
+    {
+        "name": "Alchemy Comedy Theatre",
+        "link": "http://alchemycomedy.com/",
+        "picture": "https://lh3.googleusercontent.com/proxy/vrmKJTEgYW9ClyndA2TII_88Wcf27RVqPX8namNIqMZEmpIE79uk6nk_wfpVttnvxnR2vQ7gFJ3-LY-ucUggyf6xCeF-kMoDvMmViV8",
+        "summary": "Weekly sketch, improv & stand-up comedy performances at Coffee Underground theater.",
+        "points": 5,
+        "city_id": 6
+    },
+    {
+        "name": "Great Lakes Glow Golf",
+        "link": "https://www.greatlakesglowgolf.com/",
+        "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/YjBQAkOodsNhN0xMWaX-wA/l.jpg",
+        "summary": "Great Lakes Glow Golf is your place for fun! We feature 18 holes of miniature golf played under black light utilizing ultraviolet visual artistry.",
+        "points": 25,
+        "city_id": 7
+    },
+    {
+        "name": "Frederik Meijer Gardens and Sculpture Park",
+        "link": "https://www.meijergardens.org/",
+        "picture": "https://media.wzzm13.com/assets/WZZM/images/43c8ba3c-511c-4833-b847-326811170009/43c8ba3c-511c-4833-b847-326811170009_750x422.png",
+        "summary": "Frederik Meijer Gardens & Sculpture Park is a 158-acre botanical garden, art museum, and outdoor sculpture park located in Grand Rapids",
+        "points": 20,
+        "city_id": 7
+    },
+    {
+        "name": "Amped Reality",
+        "link": "https://ampedrealityvr.com/",
+        "picture": "http://www.grnow.com/wp-content/uploads/2019/07/IMG_7533.jpeg",
+        "summary": "Amped Reality offers a totally new, social, entertainment and birthday party option for the Grand Rapids area!",
+        "points": 15,
+        "city_id": 7
+    },
+    {
+        "name": "Super Happy Funtime Burlesque",
+        "link": "https://www.superhappyfuntimeburlesque.com/",
+        "picture": "https://wfphu2p1901jyr9z36v1hf16-wpengine.netdna-ssl.com/wp-content/uploads/sites/19/2020/03/84464346_10158169081550513_8171337746367905792_o.jpg",
+        "summary": "Super Happy Funtime has been around for 14 years. Theyve been touring the nation for 10 years. They live in a big red school bus. There is no show like SHFB anywhere else in the USA",
+        "points": 10,
+        "city_id": 7
+    },
+    {
+        "name": "The Pyramid Scheme",
+        "link": "https://pyramidschemebar.com/",
+        "picture": "https://pyramidschemebar.com/wp-content/uploads/2013/02/pyramid-scheme-1.jpg",
+        "summary": "Laid-back bar with a kitschy vibe features pinball machines & a live rock venue in back.",
+        "points": 5,
+        "city_id": 7
+    },
+    {
+        "name": "Ft Collins Musuem of Discovery",
+        "link": "https://fcmod.org/",
+        "picture": "https://fcmod.org/wp-content/uploads/2018/07/Exhibits.png",
+        "summary": "We’re an interactive and immersive museum, featuring hands-on and collections-based exhibits that tell the stories of Northern Colorado and beyond.",
+        "points": 25,
+        "city_id": 8
+    },
+    {
+        "name": "Pinball Jones",
+        "link": "https://www.pinballjones.com/",
+        "picture": "https://static.wixstatic.com/media/944c67_bbf6a9163fdf46e8a70c7dc154205e79~mv2.jpeg/v1/fill/w_560,h_354,al_c,q_80,usm_0.66_1.00_0.01/Classics.webp",
+        "summary": "In addition to the vast collection of pinball machines, we also offer a variety of arcade games, air hockey, bowlers and more, all in a family-friendly environment.",
+        "points": 20,
+        "city_id": 8
+    },
+    {
+        "name": "Blendings at the Preserve",
+        "link": "https://coloradowine.com/winery/blendings-at-the-preserve/",
+        "picture": "https://www.reporterherald.com/wp-content/uploads/2019/05/RHC-Z-Blendings-at-the-Preserve051919.jpg",
+        "summary": "Blendings at The Preserve is a unique and exciting winery nestled in the foothills outside Fort Collins, Colorado, off Bingham Hill Road. ",
+        "points": 15,
+        "city_id": 8
+    },
+    {
+        "name": "Xgolf Fort Collins",
+        "link": "https://xgolffortcollins.com/",
+        "picture": "https://xgolffortcollins.com/wp-content/uploads/2020/07/play.jpg",
+        "summary": "X Golf’s state of the art indoor golf simulators offer players unparalleled accuracy and realism through a combination of camera systems, infrared lasers, impacts sensors, and advanced gaming software.",
+        "points": 10,
+        "city_id": 8
+    },
+    {
+        "name": "Holiday Twin Drive in Theatre",
+        "link": "https://holidaytwin.com/",
+        "picture": "https://mk0uncovercolor8845v.kinstacdn.com/wp-content/uploads/2020/08/Holiday-Twin-Drive-In-Fort-Collins-CO-1440x720-1.jpg",
+        "summary": "Seasonal drive-in theater offering first-run double features on Friday nights, plus a snack bar.",
+        "points": 5,
+        "city_id": 8
+    },
+    {
+        "name": "Graffiti Attic",
+        "link": "https://graffitiattic.com/",
+        "picture": "https://wpcdn.us-east-1.vip.tn-cloud.net/www.thepitchkc.com/content/uploads/2020/07/Graffiti-Attic-Opening-8529.jpg",
+        "summary": "An idea born in the middle of a pandemic that invited local artist to come paint whatever they wanted to paint on. Since then, the space has become an artist commune of street artist from all over the city sharing knowledge and techniques with one another.",
+        "points": 25,
+        "city_id": 9
+    },
+    {
+        "name": "Museum of Illusions",
+        "link": "https://moikansascity.com/",
+        "picture": "https://img.grouponcdn.com/deal/3q4hmJCEFYscisXGMVWnWkjbL3pJ/3q-1500x900/v1/c870x524.jpg",
+        "summary": "Enter the fascinating world of illusions  which will trick your confidence in your own senses, but will also  amaze you by doing so ; the world that will confuse you completely, but also educate you.",
+        "points": 20,
+        "city_id": 9
+    },
+    {
+        "name": "The Nelson-Atkins Museum of Art",
+        "link": "https://www.nelson-atkins.org/",
+        "picture": "https://nelson-atkins.org/wp-content/uploads/2017/10/cb_07.12.10.02_1-e1508771934577.jpg",
+        "summary": "The Nelson-Atkins Museum of Art is an art museum in Kansas City, Missouri, known for its encyclopedic collection of art from nearly every continent and culture, and especially for its extensive collection of Asian art. ",
+        "points": 15,
+        "city_id": 9
+    },
+    {
+        "name": "Flipswitch VR",
+        "link": "https://www.flipswitchvr.com/",
+        "picture": "https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_1200,h_675/https://www.flipswitchvr.com/wp-content/uploads/2018/10/AZS_LBVR_LiveActionStill03_NoLogo.jpg",
+        "summary": "With state-of-the-art wireless technology and motion tracking, we take you inside the game where your body is the controller and your mind believes it’s real.",
+        "points": 10,
+        "city_id": 9
+    },
+    {
+        "name": "Wonder Wonder",
+        "link": "https://www.wonderwonder.us/",
+        "picture": "https://img.grouponcdn.com/deal/qCtJn6jUv6FGkTGonVCDYuchcfu/qC-1400x840/v1/sc600x600.jpg",
+        "summary": "Wonder Wonder is a new form of experiential entertainment that intends to bring out the weird, wild, and wonderful in ways you’ve never seen before. Our mission is to create an immersive one-of-a-kind experience that is as engaging as it is inspiring.",
+        "points": 5,
+        "city_id": 9
+    },
+    {
+        "name": "The Coin-op",
+        "link": "https://www.thecoinop.fun/",
+        "picture": "https://cdn.shopify.com/s/files/1/0859/3608/files/2_f02e3df6-77f9-4983-a8af-98c40a0131ef_large.jpg?v=1578776794",
+        "summary": "We are an arcade bar where folks of all ages can play.",
+        "points": 25,
+        "city_id": 10
+    },
+    {
+        "name": "Adventure Sports Innovation",
+        "link": "https://adventuresportsinnovation.com/",
+        "picture": "https://www.tnvacation.com/sites/default/files/partner/little%20vehicles%20tour.jpg",
+        "summary": "We are an arcade bar where folks of all ages can play.",
+        "points": 20,
+        "city_id": 10
     }
 ]
