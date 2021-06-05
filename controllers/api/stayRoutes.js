@@ -3,7 +3,7 @@ const { Stay } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.get('/', (req, res) => {
-   stay.findAll({})
+   Stay.findAll({})
       .then(stayData => res.json(stayData))
       .catch(err => {
          console.log(err);
