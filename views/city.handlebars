@@ -1,0 +1,15 @@
+<h2>{{city.name}}</h2>
+
+{{#each eats as |eat|}}
+<h2>{{eat.name}}</h2>
+<img src="{{eat.picture}}">
+<a href="{{eat.link}}">Website</a>
+<p>{{eat.summary}}</p>
+{{/each}}
+
+{{#each ents as |ent|}}
+<h2>{{ent.name}}</h2>
+<img src="{{ent.picture}}">
+<a href="{{ent.link}}">Website</a>
+<p>{{ent.summary}}</p>
+{{/each}}
