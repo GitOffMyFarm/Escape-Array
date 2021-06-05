@@ -4,13 +4,559 @@
         "link": "https://www.chestnutasheville.com/",
         "picture": "https://www.chestnutasheville.com/wp-content/uploads/2016/09/bg-reserve.jpg",
         "summary": "Chestnut is a casual upscale restaurant specializing in American cuisine, with a menu that can include Southern items as well as ethnicities depending on what is fresh, local, and seasonal. We serve dinner 7 days a week.",
-        "points": 25
+        "points": 25,
+        "city_id": 4
     },
     {
         "name": "Tupelo Honey",
         "link": "https://tupelohoneycafe.com/",
         "picture": "https://media-cdn.tripadvisor.com/media/photo-s/0e/db/80/88/tupelo-honey-cafe-interior.jpg",
         "summary": "Tupelo Honey is a revival of Southern food and traditions rooted in the Carolina Mountains we call home. We craft brunches, lunches and suppers that bring family and friends around the table and allow for conversations and cocktails to linger longer than usual.",
-        "points": 20
+        "points": 20,
+        "city_id": 4
+    },
+    {
+        "name": "White Duck Taco Shop",
+        "link": "http://whiteducktacoshop.com/",
+        "picture": "https://charlotteaxios-charlotteagenda.netdna-ssl.com/wp-content/uploads/2019/12/WDD_Four.jpg",
+        "summary": "The flagship River Duck has flown a block away and now lives on the East Bank of the French Broad River … now bigger with more parking, indoor and outdoor seating, and literally waterfront! We are incredibly pet friendly and cool as a cucumber due to our new and fancy central heating and air.",
+        "points": 15,
+        "city_id": 4
+    },
+    {
+        "name": "The Funkatorium",
+        "link": "https://www.wickedweedbrewing.com/",
+        "picture": "https://smokymountains.com/wp-content/uploads/2020/12/Asheville-Food-The-Funkatorium-9-1024x683.jpg",
+        "summary": "Wicked Weed sour & funky beers are served in a rustic pub with a barrel room & a dog-friendly patio.",
+        "points": 10,
+        "city_id": 4
+    },
+    {
+        "name": "Fig",
+        "link": "https://www.figbistro.com/",
+        "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/FvEeWX0aQ4QLsD13pyrkCg/l.jpg",
+        "summary": "New American cuisine with French touches served in easygoing bistro quarters with patio seating.",
+        "points": 5,
+        "city_id": 4
+    },
+    {
+        "name": "LUNCH.SUPPER!",
+        "link": "https://www.lunchorsupper.com/",
+        "picture": "https://images.squarespace-cdn.com/content/v1/58b4e5e5e4fcb5991e6fe4a6/1488340199465-ABNQHFZ0CG7RKQNM1LC8/ke17ZwdGBToddI8pDm48kBk1Ey72DOIOL4VRW-8sZ6dZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwl2WQtF8wPv-fkqqmUWrxzbS6akMCyXeZUEMqBlzojHA8yK3zAsg7fIHnPeHfYxLA/image-asset.png",
+        "summary": "Innovative American eats & weekend brunch in a rustic space with quirky & ornate fixtures.",
+        "points": 25,
+        "city_id": 2
+    },
+    {
+        "name": "The Broken Tulip",
+        "link": "https://www.thebrokentulip.com/",
+        "picture": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/a/88/a8882ff0-4b4e-51d6-aef7-65c2cc37bd25/5b3a38222b0da.image.jpg?resize=1200%2C792",
+        "summary": "Seasonal dishes using area-sourced ingredients served in snug quarters with a supper-club vibe.",
+        "points": 20,
+        "city_id": 2
+    },
+    {
+        "name": "Stella's",
+        "link": "https://stellasrichmond.com/",
+        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/0e/4f/f2/78/photo0jpg.jpg",
+        "summary": "Modern Greek fare, including small plates, in a blond-wood minimalist space with a communal table.",
+        "points": 15,
+        "city_id": 2
+    },
+    {
+        "name": "Perly's",
+        "link": "https://www.perlysrichmond.com/",
+        "picture": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/3/02/30221362-1633-11e3-be03-0019bb30f31a/52288e0f340d6.image.jpg",
+        "summary": "Creative Jewish deli bites & dinners served in a funky, retro eatery decorated with old photos.",
+        "points": 10,
+        "city_id": 2
+    },
+    {
+        "name": "Secret Sandwich Society",
+        "link": "https://www.secretsandwichsociety.com/",
+        "picture": "https://media1.fdncms.com/styleweekly/imager/u/original/14791064/food26_interior.jpg",
+        "summary": "At Secret Sandwich Society, our mission is to create thoughtfully sourced foods, crafted with passion, meant to nourish and fulfill our guests.",
+        "points": 5,
+        "city_id": 2
+    },
+    {
+        "name": "Spork",
+        "link": "https://www.sporkbend.com/",
+        "picture": "https://728929.smushcdn.com/621658/wp-content/uploads/2018/02/Spork_Alex-Jordan_RF_PC-8378.jpg?lossy=1&strip=1&webp=1",
+        "summary": "Vibrant restaurant featuring Mexican eats, Asian fusion plates & craft cocktails in a stylish venue.",
+        "points": 25,
+        "city_id": 5
+    },
+    {
+        "name": "Zydeco Kitchen and Cocktails",
+        "link": "https://zydecokitchen.com/",
+        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/05/cc/a0/3e/zydeco-kitchen-cocktails.jpg",
+        "summary": "Casual restaurant & bar with a patio serving meaty, Cajun-influenced American fare.",
+        "points": 20,
+        "city_id": 5
+    },
+    {
+        "name": "Chomp Chomp",
+        "link": "https://www.chompchomp-bend.com/",
+        "picture": "https://i1.wp.com/hellobendoregon.com/wp-content/uploads/2020/03/cc4.jpg?ssl=1",
+        "summary": "Chomp Chomp defines a unique Pacific Northwest experience inspired by the Japanese Northwest. Enjoy a comfortable atmosphere and gently expand your culinary horizons while enjoying an excellent selection of local and Japanese craft brews, excellent traditional cocktails as well as mixology inspired by Japanese aromatics and citrus.",
+        "points": 15,
+        "city_id": 5
+    },
+    {
+        "name": "Deschutes Brewery and Public House",
+        "link": "https://www.deschutesbrewery.com/visit-us/bend-public-house/",
+        "picture": "https://d1o0i0v5q5lp8h.cloudfront.net/desbre/live/assets/locations/image/DeschutesBendPub_Summer1599083081-26923.jpg",
+        "summary": "Offshoot brewpub of well-known craft brewery offering locavore fare for lunch & dinner.",
+        "points": 10,
+        "city_id": 5
+    },
+    {
+        "name": "Bangers and Brews",
+        "link": "https://bangersandbrews.com/",
+        "picture": "https://www.onlyinyourstate.com/wp-content/uploads/2019/01/bangers-brews.jpg",
+        "summary": "Counter serve spot offering a variety of gourmet Argentine-inflected sausages in a bollilo bun.",
+        "points": 5,
+        "city_id": 5
+    },
+    {
+        "name": "Wild Child",
+        "link": "https://www.facebook.com/pages/category/Bar/Wild-Child-Restaurant-Cocktail-Bar-102954731497696/",
+        "picture": "https://rooftop-collective.com/wp-content/uploads/2020/10/23-683x1024.jpg",
+        "summary": "A vibrant neighborhood Bistro and Cocktail Bar.",
+        "points": 25,
+        "city_id": 3
+    },
+    {
+        "name": "Bacon Bitch",
+        "link": "https://baconbitch.com/",
+        "picture": "https://images.squarespace-cdn.com/content/v1/55467dc6e4b0ebaf8fab24a0/1601234624311-76DYLK7OXYRVTMJ7VJQP/ke17ZwdGBToddI8pDm48kFWxnDtCdRm2WA9rXcwtIYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcTSrQkGwCGRqSxozz07hWZrYGYYH8sg4qn8Lpf9k1pYMHPsat2_S1jaQY3SwdyaXg/_I0A8998.jpg?format=1500w",
+        "summary": "Since 2017, Bacon Bitch has been serving classic American breakfast and brunch inspired by our love for bacon. ",
+        "points": 20,
+        "city_id": 3
+    },
+    {
+        "name": "The Urban Stillhouse",
+        "link": "https://theurbanstillhouse.com/",
+        "picture": "https://images.otstatic.com/prod1/31308351/3/large.jpg",
+        "summary": "The food menu is a marriage of new and traditional American cuisine featuring elevated takes on classic staples. Guests can expect weekly bourbon-inspired rotating specials and seasonal menu updates highlighting the wood-fired grill.",
+        "points": 15,
+        "city_id": 3
+    },
+    {
+        "name": "Sammy and Paco's",
+        "link": "https://www.facebook.com/sammyandpacos/?ref=py_c",
+        "picture": "https://cdn.cltampa.com/files/base/scomm/cltampa/image/2021/05/640w/Screen_Shot_2021_05_13_at_10.48.48_AM.609d3c845bb24.jpg",
+        "summary": "Cute breakfast cafe spot, Their menu relies heavily on breakfast foods like avocado toast, bagels plus sandwiches and grab-and-go options. ",
+        "points": 10,
+        "city_id": 3
+    },
+    {
+        "name": "The Library",
+        "link": "https://thelibrarystpete.com/",
+        "picture": "https://stpetersburgfoodies.com/wp-content/uploads/2018/12/wj0mS9jSbW5TRmGpBew.jpg",
+        "summary": "Polished eatery offering New American bites, brunch staples & craft cocktails, plus outdoor seating.",
+        "points": 5,
+        "city_id": 3
+    },
+    {
+        "name": "The Press",
+        "link": "https://www.thepressokc.com/",
+        "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/faXmv23ofiQ5yemNlJ8WHw/o.jpg",
+        "summary": "Warm, brick-exposed eatery offering American plates & comfort fare plus a full bar with cocktails.",
+        "points": 25,
+        "city_id": 1
+    },
+    {
+        "name": "FRIDA Southwest",
+        "link": "https://fridasouthwest.com/",
+        "picture": "https://cdn2.newsok.biz/cache/w620-c9126eef2cf27cbd8a209c416e8044ee.jpg",
+        "summary": "FRIDA southwest is inspired by the cuisine of Oklahoma, Santa Fe and northern Mexico in an architecturally unique, beautifully designed setting.",
+        "points": 20,
+        "city_id": 1
+    },
+    {
+        "name": "Black Walnut",
+        "link": "https://www.blackwalnutokc.com/",
+        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/16/b5/7f/12/black-walnut-flat-iron.jpg",
+        "summary": "Blending American cuisine with the neighborhoods rich cultural history, the menu is eclectic and vibrant.",
+        "points": 15,
+        "city_id": 1
+    },
+    {
+        "name": "Scratch Kitchen and Cocktails",
+        "link": "https://eatatscratch.com/",
+        "picture": "https://www.gannett-cdn.com/community-hub/marketplace/development/master/static/images/uploads/d6ef63ab-2b43-457f-ba4b-005d7b2e8258.jpg?width=800",
+        "summary": "We spend our free time honing our knife skills, studying spices, dissecting spirits, and doing anything to better prepare daring, delicious feasts, because our reputation is forged in our kitchen and behind our bar.",
+        "points": 10,
+        "city_id": 1
+    },
+    {
+        "name": "Social Deck and Dining",
+        "link": "http://www.besocialokc.com/",
+        "picture": "https://media1.fdncms.com/okgazette/imager/u/original/5441100/7w0a7073_1.jpg",
+        "summary": "Social is an American Fusion menu inspired by the Pacific Northwest, you’ll find thoughtfully sourced and local ingredients inspiring daily brunch, social hour, and refined dinner menu.",
+        "points": 5,
+        "city_id": 1
+    },
+    {
+        "name": "Kitchen Sync",
+        "link": "https://kitchensyncgreenville.com/",
+        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/18/e0/2e/8f/scampi-with-pan-seared.jpg",
+        "summary": "Rustic-chic eatery with spirits & global eats such as tacos, banh mi salad, burgers & Thai pot pie.",
+        "points": 25,
+        "city_id": 6
+    },
+    {
+        "name": "The Trappe Door",
+        "link": "https://www.trappedoor.com/",
+        "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/Ds2l9yWLIBIaj_6h4Sh37g/l.jpg",
+        "summary": "Underground spot with an old-world vibe offering traditional Belgian dishes & a huge beer selection.",
+        "points": 20,
+        "city_id": 6
+    },
+    {
+        "name": "Fork and Plough",
+        "link": "https://www.forkandplough.com/",
+        "picture": "https://img2.10bestmedia.com/Images/Photos/373273/Fork-Plough_55_660x440.jpg",
+        "summary": "This concept supports the idea that farmers and chefs can make a living supplying a community with its daily necessities, while also encouraging enjoyment of a simple meal of a sandwich or steak, chop, or bake.",
+        "points": 15,
+        "city_id": 6
+    },
+    {
+        "name": "Sassafras Southern Bistro",
+        "link": "https://www.sassafrasbistro.com/",
+        "picture": "https://eventective-media.azureedge.net/2623749_lg.jpg",
+        "summary": "Warm & welcoming mainstay serving up Southern fare with nightly specials, a bar & outdoor seating.",
+        "points": 10,
+        "city_id": 6
+    },
+    {
+        "name": "The Burrow",
+        "link": "https://theburrowgville.com/",
+        "picture": "https://img1.10bestmedia.com/Images/Photos/373274/The-Burrow_55_660x440.JPG",
+        "summary": "Our goal is to offer something for everyone, through our eclectic menu, different sized plate options and children's menu.",
+        "points": 5,
+        "city_id": 6
+    },
+    {
+        "name": "One Twenty Three Tavern",
+        "link": "https://123gr.com/",
+        "picture": "https://123gr.com/images/default-source/one-twenty-three/menu-images/onetwentythree_burger.tmb-menu-image.jpg?sfvrsn=67fadef4_1",
+        "summary": "Comfort food available for takeout or delivery. Featuring daily specials, incredible burgers, and meatloaf that'll rival your mother's.",
+        "points": 25,
+        "city_id": 7
+    },
+    {
+        "name": "Terra GR",
+        "link": "https://terragr.com/",
+        "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/MF25CuNZu0QLmQEOrNnraQ/l.jpg",
+        "summary": "Farm-to-table dishes, wood-fired pizza, craft cocktails & beer offered in a stylish, rustic space.",
+        "points": 20,
+        "city_id": 7
+    },
+    {
+        "name": "Butchers Union",
+        "link": "https://www.butchersuniongr.com/",
+        "picture": "https://wp.rockfordconstruction.com/wp-content/uploads/2019/01/BUTCHERS_UNION_05.jpg",
+        "summary": "Modern gastropub with a meat-heavy menu of globally inspired fare, 100+ whiskeys & draft beer.",
+        "points": 15,
+        "city_id": 7
+    },
+    {
+        "name": "The Green Well",
+        "link": "https://thegreenwell.com/",
+        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/0e/ce/f0/a0/green-well-double-burger.jpg",
+        "summary": "Eco-friendly gastropub serves an eclectic menu plus local & European beers in a sunny space.",
+        "points": 10,
+        "city_id": 7
+    },
+    {
+        "name": "The Sovengard",
+        "link": "https://www.sovengard.com/",
+        "picture": "https://www.sovengard.com/wp-content/uploads/2019/04/sovengard-outdoor-beergarden.jpg",
+        "summary": "Seasonal produce is given a Scandinavian treatment at this hip destination with a terrace.",
+        "points": 5,
+        "city_id": 7
+    },
+    {
+        "name": "The Colorado Room",
+        "link": "http://thecoloradoroom.com/",
+        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/12/5d/6a/41/cr.jpg",
+        "summary": "Locally owned hangout with sandwiches, art on the walls, ample outdoor seating & local craft beers.",
+        "points": 25,
+        "city_id": 8
+    },
+    {
+        "name": "The Farmhouse at Jessup",
+        "link": "https://www.farmhousefc.com/",
+        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/09/7f/0b/40/farmhouse-at-jessup-farm.jpg",
+        "summary": "Restored, country-chic eatery with seasonal American fare & local craft beers, plus outdoor seating.",
+        "points": 20,
+        "city_id": 8
+    },
+    {
+        "name": "Social",
+        "link": "https://www.socialfortcollins.com/",
+        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/05/34/b3/58/social.jpg",
+        "summary": "Industrial basement speakeasy with specialty cocktails, charcuterie & an ample absinthe selection.",
+        "points": 15,
+        "city_id": 8
+    },
+    {
+        "name": "Penrose Taphouse and Eatery",
+        "link": "https://www.penrosetaphouse.com/",
+        "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/99xxM3R5m6xDLQp87MgvXg/348s.jpg",
+        "summary": "Here to share good vibes, great food & local beer!",
+        "points": 10,
+        "city_id": 8
+    },
+    {
+        "name": "Obstacle Brewing and Grill",
+        "link": "https://www.obstaclebrewing.com/",
+        "picture": "https://townsquare.media/site/50/files/2020/08/118153516_151863009893391_6145853872986827697_o.jpg",
+        "summary": "Our mission here at Obstacle Brewing is not only to provide a place to relax with friends and family while enjoying great food and drinks, but also to create opportunities to support those in our community struggling to overcome the challenges they face. ",
+        "points": 5,
+        "city_id": 8
+    },
+    {
+        "name": "Fox and Pearl",
+        "link": "https://www.foxandpearlkc.com/",
+        "picture": "https://wpcdn.us-midwest-1.vip.tn-cloud.net/www.kansascitymag.com/content/uploads/2019/09/EX8B5171-1024x683.jpg",
+        "summary": "Local ingredients, live fire hearth, smoker, & traditional preservation, a seasonal, handcrafted menu.",
+        "points": 25,
+        "city_id": 9
+    },
+    {
+        "name": "The Rockhill Grille",
+        "link": "https://therockhillgrille.com/",
+        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/19/22/ad/2b/photo0jpg.jpg",
+        "summary": "A sophisticated destination offering American plates & inventive cocktails in stylish surrounds.",
+        "points": 20,
+        "city_id": 9
+    },
+    {
+        "name": "The Farmhouse",
+        "link": "https://www.eatatthefarmhouse.com/",
+        "picture": "https://media-api.xogrp.com/images/8086dda8-a8f6-4230-a3e4-07a5d7fec84f",
+        "summary": "Quaint farm-to-fork restaurant featuring a seasonal menu of elevated American eats & patio seating.",
+        "points": 15,
+        "city_id": 9
+    },
+    {
+        "name": "Q39",
+        "link": "https://q39kc.com/",
+        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/0e/93/41/c2/judges-plate-of-ribs.jpg",
+        "summary": "Hip, airy joint with beamed ceilings & exposed brick serving smoked BBQ & wood-fired meats.",
+        "points": 10,
+        "city_id": 9
+    },
+    {
+        "name": "Farina",
+        "link": "https://farinakc.com/",
+        "picture": "https://www.helixkc.com/wp-content/uploads/2018/08/Farina-Header_New.jpg",
+        "summary": "Rustic Italian dishes by a James Beard award-winning chef in a casual setting with warm interiors.",
+        "points": 5,
+        "city_id": 9
+    },
+    {
+        "name": "Public House",
+        "link": "https://www.publichousechattanooga.com/",
+        "picture": "https://www.publichousechattanooga.com/storage/app/media/assets/076-PublicHouse-Sp19-DotsonCommercial-CropSm.jpg",
+        "summary": "Updated, locally sourced Southern fare & a discerning wine list in a refined, relaxed setting.",
+        "points": 25,
+        "city_id": 10
+    },
+    {
+        "name": "The FEED Co.(Feed Table & Tavern)",
+        "link": "https://www.feedtableandtavern.com/",
+        "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/wa0tp741fKvUv8Q5yg0nmQ/l.jpg",
+        "summary": "Located in Chattanooga’s thriving Southside, The FEED Co. is an artful combination of tavern and family dining with a stunning destination, and an inviting farm fresh menu.",
+        "points": 20,
+        "city_id": 10
+    },
+    {
+        "name": "Scottie's on the River",
+        "link": "https://scottiesontheriver.net/",
+        "picture": "https://3h.group/wp-content/uploads/2018/07/DCB_0953-1200x800.jpg",
+        "summary": "Scottie’s On The River, has fast became Chattanooga’s favorite spot for great seafood in a casual dining atmosphere.",
+        "points": 15,
+        "city_id": 10
+    },
+    {
+        "name": "State of Confusion",
+        "link": "https://www.soconfusion.com/",
+        "picture": "https://3h.group/wp-content/uploads/2018/07/DCB_0953-1200x800.jpghttps://media.timesfreepress.com/img/photos/2018/08/17/webconfusion2233318182011_t1000_he4f1ea337248c50bb0771b20eb6848ce8e1e196c.jpg",
+        "summary": "Known for wood-fired dishes, ceviche & beer in a building with exposed brick & industrial interiors.",
+        "points": 10,
+        "city_id": 10
+    },
+    {
+        "name": "1885 Grill",
+        "link": "https://1885grill.com/",
+        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/0e/d4/c7/92/1885-grill.jpg",
+        "summary": "Southern-inspired coastal cuisine, comfort sides & cocktails in laid-back, contemporary digs.",
+        "points": 5,
+        "city_id": 10
+    },
+    {
+        "name": "The Parish",
+        "link": "https://theparishtucson.com/",
+        "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/_QuHclWk6CJ7zqlpezazYA/l.jpg",
+        "summary": "Gathering place where Southern-style dishes & a lengthy drink menu are sampled amid local art.",
+        "points": 25,
+        "city_id": 11
+    },
+    {
+        "name": "Culinary Dropout",
+        "link": "https://www.culinarydropout.com/",
+        "picture": "https://frc-foxrcevents.s3-us-west-1.amazonaws.com/wp-content/uploads/2017/08/22145536/Lounges1_768X525.png",
+        "summary": "Cool, British-style gastropub chain with quirky decor, serving inventive cocktails & comfort food.",
+        "points": 20,
+        "city_id": 11
+    },
+    {
+        "name": "Tito & Pep",
+        "link": "https://www.titoandpep.com/",
+        "picture": "https://images.otstatic.com/prod1/32278506/1/large.jpg",
+        "summary": "Neighborhood locale with cool decor for Southwestern bistro fare, original cocktails & local beers.",
+        "points": 15,
+        "city_id": 11
+    },
+    {
+        "name": "Commoner and Co.",
+        "link": "http://commonertucson.com/",
+        "picture": "https://tucsonfoodie.com/wp-content/uploads/2019/10/TF-Commoner-Co-interior-8856-1024x683.jpg",
+        "summary": "Spacious, industrial-chic spot for elevated comfort fare plus cocktails & beers in warm surrounds.",
+        "points": 10,
+        "city_id": 11
+    },
+    {
+        "name": "Locale Neighborhood Italian",
+        "link": "https://localetucson.com/",
+        "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/VVhz10HY9vtm-re_XgpsUw/o.jpg",
+        "summary": "An all-day long trattoria in the heart of Tucson, Arizona.",
+        "points": 5,
+        "city_id": 11
+    },
+    {
+        "name": "Street and Co.",
+        "link": "https://www.streetandcompany.net/",
+        "picture": "https://www.oldport.com/wp-content/uploads/2014/05/6C2A9773-1024x683.jpg",
+        "summary": "Simple, upscale preparations of local fish in a rustic & snug bistro on a cobblestone alley.",
+        "points": 25,
+        "city_id": 12
+    },
+    {
+        "name": "Eventide Oyster Co.",
+        "link": "https://www.eventideoysterco.com/",
+        "picture": "https://www.bostonmagazine.com/wp-content/uploads/sites/2/2016/12/Eventide.jpg",
+        "summary": "Tiny, busy seafood joint with a raw bar, lobster rolls & creative New England fare, plus cocktails.",
+        "points": 20,
+        "city_id": 12
+    },
+    {
+        "name": "Duckfat",
+        "link": "https://www.duckfat.com/",
+        "picture": "https://d3rw5v15h1jwdg.cloudfront.net/wp-content/uploads/2016/03/28194220/duckfat2-20786.jpg",
+        "summary": "Small European-leaning sandwich shop & cafe known for its duck-fat Belgian fries & milkshakes.",
+        "points": 15,
+        "city_id": 12
+    },
+    {
+        "name": "The Highroller Lobster",
+        "link": "https://highrollerlobster.com/",
+        "picture": "https://i.redd.it/oyqsilsgjtf01.jpg",
+        "summary": "Lobster rolls & other seafood in a neighborhood diner that sources local brioche rolls.",
+        "points": 10,
+        "city_id": 12
+    },
+    {
+        "name": "Central Provisions",
+        "link": "http://www.central-provisions.com/",
+        "picture": "https://d3rw5v15h1jwdg.cloudfront.net/wp-content/uploads/2016/03/28191558/DSC2425-53594-1024x683.jpg",
+        "summary": "Eclectic restaurant serving small plates & cocktails in a rustic, brick-walled setting.",
+        "points": 5,
+        "city_id": 12
+    },
+    {
+        "name": "Boatyard Bar and Grill",
+        "link": "https://www.boatyardbarandgrill.com/",
+        "picture": "https://boatyardbarandgrill.com/media/rokgallery/7/7e9650dc-bbe6-4e6c-bd82-5c8df4a248c2/fd6da67c-e705-41a3-bd97-69abb8165d21.jpg",
+        "summary": "Vibrant nautical-themed spot for crab, oysters & other seafood, plus burgers, pizza & a full bar.",
+        "points": 25,
+        "city_id": 13
+    },
+    {
+        "name": "Preserve",
+        "link": "http://preserve-eats.com/",
+        "picture": "https://resizer.otstatic.com/v2/photos/wide-huge/1/26394175.jpg",
+        "summary": "Canned, pickled & fermented produce is highlighted in the American cooking at this rustic mod spot.",
+        "points": 20,
+        "city_id": 13
+    },
+    {
+        "name": "Carrol's Creek Cafe",
+        "link": "https://carrolscreek.com/",
+        "picture": "https://images.otstatic.com/prod/27775610/1/huge.jpg",
+        "summary": "Elegant waterfront seafood restaurant overlooking Spa Creek & serving classic Chesapeake fare.",
+        "points": 15,
+        "city_id": 13
+    },
+    {
+        "name": "Lighthouse Bistro",
+        "link": "https://www.lighthousebistro.org/",
+        "picture": "https://browncontracting.com/wp-content/uploads/2017/07/Light-House-11-1024x686.jpg",
+        "summary": "Polished bistro offering elevated American dishes & brunch in a stylish atmosphere.",
+        "points": 10,
+        "city_id": 13
+    },
+    {
+        "name": "Sailor Oyster Bar",
+        "link": "https://www.sailoroysterbar.com/",
+        "picture": "https://jennhallwrites.files.wordpress.com/2020/01/fullsizeoutput_2710.jpeg",
+        "summary": "Cozy, stylish outfit serving oysters & raw-bare fare along with sandwiches, charcuterie & cocktails.",
+        "points": 5,
+        "city_id": 13
+    },
+    {
+        "name": "Husk",
+        "link": "https://huskrestaurant.com/",
+        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/16/74/da/80/exterior.jpg",
+        "summary": "An ever-changing menu of locally sourced Southern dishes served in a restored Victorian-era home.",
+        "points": 25,
+        "city_id": 14
+    },
+    {
+        "name": "Poogan's Porch",
+        "link": "https://www.poogansporch.com/",
+        "picture": "https://images.otstatic.com/prod/23680004/1/large.jpg",
+        "summary": "Traditional Southern cooking served in a Victorian townhouse with porches & a massive wine cellar.",
+        "points": 20,
+        "city_id": 14
+    },
+    {
+        "name": "Magnolia's",
+        "link": "https://magnoliascharleston.com/",
+        "picture": "https://images.otstatic.com/prod/23931800/1/huge.jpg",
+        "summary": "A refined take on traditional Southern cooking, served in a warm, sophisticated environment.",
+        "points": 15,
+        "city_id": 14
+    },
+    {
+        "name": "Taco Boy",
+        "link": "https://www.tacoboy.net/",
+        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/18/8f/d6/7d/photo0jpg.jpg",
+        "summary": "Tacos with innovative fillings & frozen cocktails in a funky, vibrant setting, plus outdoor seating.",
+        "points": 10,
+        "city_id": 14
+    },
+    {
+        "name": "The Darling",
+        "link": "https://thedarling.com/",
+        "picture": "https://media.cntraveler.com/photos/5ae9e8092d88df6b13dbe91b/16:9/w_2560%2Cc_limit/The-Darling-Oyster-Bar_2018_Interior-Dining-Room.jpg",
+        "summary": "Stylish spot with vintage appeal for creative seafood dishes, fry baskets & raw oysters.",
+        "points": 5,
+        "city_id": 14
     }
 ]

@@ -21,22 +21,19 @@ const seedDatabase = async () => {
 
   for (const stay of stayData) {
     await Stay.create({
-      ...stay,
-      city_id: cities[0].id
+      ...stay
     });
   }
 
   for (const eat of eatData) {
     await Eat.create({
-      ...eat,
-      city_id: cities[0].id
+      ...eat
     });
   }
 
   for (const entertainment of entertainmentData) {
     await Entertainment.create({
-      ...entertainment,
-      city_id: cities[0].id
+      ...entertainment
     });
   }
 
