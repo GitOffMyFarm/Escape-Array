@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { City, Eat, User, Entertainment, Itenirary,stay, Stay} = require('../../models');
+const { City, Eat, User, Entertainment, } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 // GET /api/users

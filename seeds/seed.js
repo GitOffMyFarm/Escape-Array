@@ -1,9 +1,8 @@
 const sequelize = require('../config/connection');
-const { City, Eat, Entertainment, Itenirary, Stay, User} = require('../models');
+const { City, Eat, Entertainment, User} = require('../models');
 const cityData = require('./city-seeds');
 const eatData = require('./eat-seeds');
 const entertainmentData = require('./entertainment-seeds.json');
-const stayData = require('./stay-seeds.json');
 const userData = require('./user-seeds.json');
 
 const seedDatabase = async () => {
@@ -17,12 +16,6 @@ const seedDatabase = async () => {
   for (const city of cityData) {
     await City.create({
       ...city
-    });
-  }
-
-  for (const stay of stayData) {
-    await Stay.create({
-      ...stay
     });
   }
 
