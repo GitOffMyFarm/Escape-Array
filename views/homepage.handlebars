@@ -4,20 +4,9 @@
 
 <table>
   <tr>
-    <th>Asheville, NC</th>
-    <th>Richmond, VA</th>
-    <th>Bend, OR</th>
-    <th>St. Petersburg FL,</th>
-    <th>Oklahoma City, OK</th>
-    <th>Greenville, SC</th>
-    <th>Grand Rapids, MI</th>
-    <th>Ft Collins, CO</th>
-    <th>Kansas City, MO</th>
-    <th>Chattanooga, TN</th>
-    <th>Tuscon, AZ</th>
-    <th>Portland, ME</th>
-    <th>Annapolis, MD</th>
-    <th>Charleston, SC</th>
+    {{#each cities as |city|}}
+    <th>{{city.name}}</th>
+    {{/each}}
   </tr>
 </table>
 
