@@ -90,9 +90,81 @@
     {
         "name": "The High Desert Museum",
         "link": "https://highdesertmuseum.org/",
-        "picture": "https://ascent-architecture.com/wp-content/uploads/2018/12/VectorVolcano_AscentArchitecture.jpg",
+        "picture": "https://highdesertmuseum.org//wp-content/uploads/2018/10/Adm-1-exhibitions-page-e1538756820917.jpg",
         "summary": "Discover the natural world and cultural history of the High Desert through artful exhibits, alluring animals, engaging programs and meaningful history.",
-        "points": 25,
+        "points": 20,
         "city_id": 2
+    },
+    {
+        "name": "Tower Theatre",
+        "link": "https://www.towertheatre.org/",
+        "picture": "https://www.towertheatre.org/tower_theater_05.jpg",
+        "summary": "The Tower Theatre is a concert hall and movie tower in Bend.",
+        "points": 15,
+        "city_id": 2
+    },
+    {
+        "name": "The Work House",
+        "link": "https://theworkhousebend.com/",
+        "picture": "https://media2.fdncms.com/bend/imager/u/zoom/2595949/the_workhouse_vertical_jpg-magnum.jpg",
+        "summary": "The Workhouse, as a whole, is more than art studios or a retail gallery- it is the vehicle for a movement. By creating a space with open, active work studios, a community work table that also holds creative arts classes, and housing a place of exchange between makers and buyers we believe we can use the power of creativity to build a stronger community and sustainable economy.",
+        "points": 10,
+        "city_id": 2
+    },
+    {
+        "name": "Studio Create",
+        "link": "https://studiocreatebend.com/",
+        "picture": "https://www.visitbend.com/wp-content/uploads/2018/04/tin-pan-alley-art-bend-1600.jpg",
+        "summary": "Studio Create is a d.i.y. art space for all ages and abilities located in Bend, OR. Explore paint-your-own-pottery, canvas painting, and more!",
+        "points": 5,
+        "city_id": 2
+    },
+    {
+        "name": "Shine St. Petersburg Mural Festival",
+        "link": "https://stpeteartsalliance.org/shine-mural-festival",
+        "picture": "https://stpeteartsalliance.org/images/SHINE/2018murals/2018_SHINE_Mural_Festival_Illsol.jpg",
+        "summary": "The annual SHINE® St. Petersburg Mural Festival illuminates the power of art in public spaces by revitalizing areas, inspiring dialogue, and uniting our community.",
+        "points": 25,
+        "city_id": 5
+    },
+    {
+        "name": "St Pete Pier",
+        "link": "https://stpetepier.org/",
+        "picture": "https://stpetecatalyst.com/wp-content/uploads/2020/06/new-pier.jpg",
+        "summary": "The St. Petersburg Pier, officially known as the St. Pete Pier, is a landmark pleasure pier extending into Tampa Bay from downtown St. Petersburg.",
+        "points": 20,
+        "city_id": 5
+    },
+    {
+        "name": "Imagine Museum",
+        "link": "https://www.imaginemuseum.com/",
+        "picture": "https://www.artgeek.io/api/media/5c06d0eb72a1460a46f7816b",
+        "summary": "Contemporary gallery showcasing works by American emerging & established studio glass artists.",
+        "points": 15,
+        "city_id": 5
+    },
+    {
+        "name": "Blueberry Patch",
+        "link": "http://www.blueberrypatch.org/",
+        "picture": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/64160921547497.56307f1aaf26b.JPG",
+        "summary": "Live music venue and retreat center.",
+        "points": 10,
+        "city_id": 5
+    },
+    {
+        "name": "The Vortex Bar and Game Room",
+        "link": "http://www.thevortexbar.com/",
+        "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/GeEezu8R5HdaxB6eWqg3WA/l.jpg",
+        "summary": "The Vortex Bar and Game Room is a fun hub with games for all ages and delicious craft beers, drafts and wine for the 21+ crowd.",
+        "points": 5,
+        "city_id": 5
+    },
+    {
+        "name": "Factory Obscura",
+        "link": "https://www.factoryobscura.com/",
+        "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/GeEezu8R5HdaxB6eWqg3WA/l.jpg",
+        "summary": "The Vortex Bar and Game Room is a fun hub with games for all ages and delicious craft beers, drafts and wine for the 21+ crowd.",
+        "points": 5,
+        "city_id": 5
     }
 ]
