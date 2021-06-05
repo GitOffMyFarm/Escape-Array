@@ -31,13 +31,6 @@ Entertainment.init(
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    city_id: {
-        type: DataTypes.INTEGER,
-        references: {
-          model: 'city',
-          key: 'id',
-        }
-    },
     user_id: {
       type: DataTypes.INTEGER,
       references: {

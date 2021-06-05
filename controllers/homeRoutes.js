@@ -27,22 +27,27 @@ router.get('/login', (req, res) => {
    res.render('loginandout');
 });
 
-router.get('/city/:id', (req, res) => {
-   City.findByPk(req.params.id)
-   .then(cityData => {
-       if (!cityData) {
-         res.status(404).json({ message: 'No City found with this id' });
-         return;
-       }
- 
-       const city = cityData.get({ plain: true });
-       res.render('city', { // what haldlebars used?
-          city, loggedIn: req.session.loggedIn});
-         
-     }).catch(err => {
-       console.log(err);
-       res.status(500).json(err);
-     });
+router.get('/city/:id', async (req, res) => {
+   try {
+      const cityData = await City.findByPk(req.params.id);
+      const eatData = await Eat.findAll({where: {"city_id": req.params.id}});
+      const entData = await Entertainment.findAll({where: {"city_id": req.params.id}});
+
+      const city = cityData.get({ plain: true });
+      const eats = eatData.map((eat) => eat.get({ plain: true }));
+      const ents = entData.map((ent) => ent.get({ plain: true }));
+
+      //res.status(200).json({ city, eat, ent });
+      res.render('city', {
+         city,
+         eats,
+         ents,
+         loggedIn: req.session.loggedIn
+      });
+   } catch (err) {
+      console.log(err)
+      res.status(500).json(err);
+   }
 });
 
 module.exports = router;

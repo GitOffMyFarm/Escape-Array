@@ -4,11 +4,17 @@ const Entertainment = require('./entertainment');
 const Eat = require('./eat');
 
 City.hasMany(Entertainment, {
-    foreignKey: 'city_entertainment'
+    as: 'city_entertainment',
+    constraints: false,
+    allownull: true,
+    defaultvalue: null
 });
 
 City.hasMany(Eat, {
-    foreignKey: 'city_eats'
+    as: 'city_eats',
+    constraints: false,
+    allownull: true,
+    defaultvalue: null
 });
 Entertainment.belongsTo(City, {
     foreignKey: 'entertainment_city'
