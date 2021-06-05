@@ -22,25 +22,7 @@ router.get('/:id', (req, res) => {
       where: {
         id: req.params.id
       },
-      include: [
-         {
-            model: Itenirary,
-            attributes: ['id', 'name', 'city_id']
-         },
-         // include the Comment model here:
-         {
-            model: City,
-            attributes: ['City_id', 'name'],
-            include: {
-               model: Stay,
-               attributes: ['name']
-            },
-            include:{
-               model:Eat,
-               attributes: ['eat_id','name', 'City_id', ]
-            }
-         }
-      ]
+      
     }).then(userData => {
          if (!userData) {
             res.status(404).json({ message: 'No user found with this id' });
