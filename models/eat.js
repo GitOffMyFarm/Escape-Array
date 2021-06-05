@@ -20,7 +20,7 @@ Eat.init(
       allowNull: false,
     },
     picture: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(1000),
       allowNull: false
     },
     summary: {
