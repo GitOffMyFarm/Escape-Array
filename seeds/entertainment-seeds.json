@@ -1,17 +1,98 @@
 [
     {
-        "name": "Chestnut",
-        "link": "https://www.chestnutasheville.com/",
-        "picture": "https://www.chestnutasheville.com/wp-content/uploads/2016/09/bg-reserve.jpg",
-        "summary": "Chestnut is a casual upscale restaurant specializing in American cuisine, with a menu that can include Southern items as well as ethnicities depending on what is fresh, local, and seasonal. We serve dinner 7 days a week.",
-        "points": 25
+        "name": "Moogseum",
+        "link": "https://moogseum.org/",
+        "picture": "https://moogseum.org/wp-content/uploads/Moogseum-Gallery-Opening3.jpg",
+        "summary": "One-of-a-kind immersive, interactive museum where Bob Moog’s pioneering legacy and the science of sound comes alive to inspire people of all ages.",
+        "points": 25,
+        "city_id": 4
     },
     {
-        "name": "Tupelo Honey",
-        "link": "https://tupelohoneycafe.com/",
-        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/0e/db/80/88/tupelo-honey-cafe-interior.jpg",
-        "summary": "Tupelo Honey is a revival of Southern food and traditions rooted in the Carolina Mountains we call home. We craft brunches, lunches and suppers that bring family and friends around the table and allow for conversations and cocktails to linger longer than usual.",
+        "name": "The Odditorium",
+        "link": "https://www.ashevilleodditorium.com/",
+        "picture": "https://2.bp.blogspot.com/-nZq4j82gl8o/WBdOaNTXmmI/AAAAAAAAEew/1iE5PBNPdhIBNWcsit43sopRc51s69sUACLcB/s1600/odd02.jpg",
+        "summary": "No-frills neighborhood hangout hosting live bands & drag shows in a quirky vintage space.",
         "points": 20,
-        "city_id": 1
+        "city_id": 4
+    },
+    {
+        "name": "Asheville Retrocade",
+        "link": "https://www.ashevilleretrocade.com/",
+        "picture": "https://10619-2.s.cdn12.com/rests/original/108_508402024.jpg",
+        "summary": "Hangout offering a vast range of vintage & modern video & arcade games, plus several beers on tap.",
+        "points": 15,
+        "city_id": 4
+    },
+    {
+        "name": "River and Arts District",
+        "link": "https://www.riverartsdistrict.com/",
+        "picture": "https://www.romanticasheville.com/sites/default/files/images/basic_page/river-arts-district-asheville-NC.jpg",
+        "summary": "The River Arts District in Asheville, North Carolina is an area of former industrial buildings located near the French Broad River, along Riverside Drive east of Interstate 240. Numerous artists have moved into the area and produce and display their works.",
+        "points": 10,
+        "city_id": 4
+    },
+    {
+        "name": "Pinball Museum",
+        "link": "https://pinball.ashevillepinball.com/",
+        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/14/f4/38/a7/20180902-152948-largejpg.jpg",
+        "summary": "All-you-can-play arcade featuring 75+ pinball machines & classic video games, plus beer & soda.",
+        "points": 5,
+        "city_id": 4
+    },
+    {
+        "name": "Virginia Museum of Fine Arts",
+        "link": "https://www.vmfa.museum/",
+        "picture": "https://images.squarespace-cdn.com/content/595d39d2d482e940948f8507/1502316815507-T9PSB3UO72XWZSCTH6OZ/?format=1500w&content-type=image%2Fjpeg",
+        "summary": "Public art museum, owned and operated by the Commonwealth of Virginia.",
+        "points": 25,
+        "city_id": 3
+    },
+    {
+        "name": "Lewis Ginter Botanical Gardens",
+        "link": "https://www.lewisginter.org/",
+        "picture": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/8/a4/8a46415e-8749-11ea-8aa6-078c2af78c4c/5ea4c2c5b1f16.image.jpg",
+        "summary": "Lewis Ginter Botanical Garden is a 50 acres, botanical garden in Richmond, Virginia's Lakeside neighborhood.",
+        "points": 20,
+        "city_id": 3
+    },
+    {
+        "name": "The Circuit",
+        "link": "https://thecircuitarcadebar.com/",
+        "picture": "https://s31832.pcdn.co/wp-content/uploads/2017/01/barcade-int-1024x650.jpg",
+        "summary": "Arcade games in an industrial space with counter-serve bar bites & craft beer from self-serve taps.",
+        "points": 15,
+        "city_id": 3
+    },
+    {
+        "name": "Hotel Greene",
+        "link": "https://www.hotelgreene.com/",
+        "picture": "https://richmondmagazine.com/downloads/26126/download/Lobby2HotelGreene_EileenMellon.jpg?cb=772101504c5c80016f5b4cbd82bc2028&w=640",
+        "summary": "Highfalutin' Indoor Mini Golf & Lobby Bar in Richmond, VA.",
+        "points": 10,
+        "city_id": 3
+    },
+    {
+        "name": "Slingshot",
+        "link": "https://slingshotgameclub.com/",
+        "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/lcF-TZv6z7__LRvfAPTF9A/l.jpg",
+        "summary": "Enjoy classic parlour games with a modern spin. These fan-favorites may look a bit different, but trust us — they’re even better than the originals.",
+        "points": 5,
+        "city_id": 3
+    },
+    {
+        "name": "Vector Volcano Arcade",
+        "link": "https://vectorvolcanoarcade.com/",
+        "picture": "https://ascent-architecture.com/wp-content/uploads/2018/12/VectorVolcano_AscentArchitecture.jpg",
+        "summary": "Vector Volcano Classic Arcade is a dedicated arcade with the best classic video arcade and pinball games of he 80's and 90's.",
+        "points": 25,
+        "city_id": 2
+    },
+    {
+        "name": "The High Desert Museum",
+        "link": "https://highdesertmuseum.org/",
+        "picture": "https://ascent-architecture.com/wp-content/uploads/2018/12/VectorVolcano_AscentArchitecture.jpg",
+        "summary": "Discover the natural world and cultural history of the High Desert through artful exhibits, alluring animals, engaging programs and meaningful history.",
+        "points": 25,
+        "city_id": 2
     }
 ]
