@@ -374,5 +374,189 @@
         "summary": "We are an arcade bar where folks of all ages can play.",
         "points": 20,
         "city_id": 10
+    },
+    {
+        "name": "Weaver Tree Farm",
+        "link": "https://weavertreefarms.com/",
+        "picture": "https://www.weavertreefarms.com/gallery/retail_960x411.jpg",
+        "summary": "Garden Center in Chattanooga, Tennessee.",
+        "points": 15,
+        "city_id": 10
+    },
+    {
+        "name": "Barking Legs Theater",
+        "link": "https://www.barkinglegs.org/",
+        "picture": "https://d2ftwog2ykfqwt.cloudfront.net/restaurant-hero/81d8029c46c441f290bcb8c799ebb5d9.jpg",
+        "summary": "Cozy theater hosting concerts as well as dance, performance & improv productions.",
+        "points": 10,
+        "city_id": 10
+    },
+    {
+        "name": "Rock City Gardens",
+        "link": "https://www.seerockcity.com/",
+        "picture": "https://www.lookoutmountain.com/images/uploads/attractions/rock-city-mainHD.jpg",
+        "summary": "Located atop Lookout Mountain in Georgia, just six miles from downtown Chattanooga, Tennessee, Rock City Gardens is an enchanted, 4,100-foot walking trail showcasing soaring rock formations, caves, and lush gardens.",
+        "points": 5,
+        "city_id": 10
+    },
+    {
+        "name": "The Breaking Point",
+        "link": "https://www.thebreakingpointtucson.com/",
+        "picture": "https://i.ytimg.com/vi/yG38J7-bUVI/maxresdefault.jpg",
+        "summary": "We are a rage room! Not just ANY rage room but the BEST rage room in the country! We also offer the best axe throwing room in Tucson! And to top it all off, we now offer a one of kind escape room experience!!",
+        "points": 25,
+        "city_id": 11
+    },
+    {
+        "name": "Ignite Sign Art Museum",
+        "link": "https://www.ignitemuseum.com/",
+        "picture": "https://pbs.twimg.com/media/DxysSjwXcAAlbiV.jpg",
+        "summary": "A place where new and abandoned neon signs buzz and glow. This museum celebrates the art and the history of signage from the 1800's through the years including current signage.",
+        "points": 20,
+        "city_id": 11
+    },
+    {
+        "name": "Mt. Lemmon Sky Center",
+        "link": "https://skycenter.arizona.edu/",
+        "picture": "https://www.tanqueverderanch.com/wp-content/uploads/2014/09/lem3.jpg",
+        "summary": "Astronomical observatory located on Mount Lemmon in the Santa Catalina Mountains.",
+        "points": 15,
+        "city_id": 11
+    },
+    {
+        "name": "4th Avenue Street Fair",
+        "link": "https://fourthavenue.org/street-fair/",
+        "picture": "https://fourthavenue.org/wp-content/uploads/2018/09/Street-Fair-Crowd-1024x425.jpg",
+        "summary": "Historic Fourth Avenue, The Heart of Tucson, Shopping, Entertainment, Nightlife and Special Events!",
+        "points": 10,
+        "city_id": 11
+    },
+    {
+        "name": "Biosphere 2",
+        "link": "https://biosphere2.org/",
+        "picture": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/d6/a4/68.jpg",
+        "summary": "Biosphere 2 is an American Earth system science research facility. Its mission is to serve as a center for research, outreach, teaching, and lifelong learning about Earth, its living systems, and its place in the universe.",
+        "points": 5,
+        "city_id": 11
+    },
+    {
+        "name": "Portland Observatory",
+        "link": "https://www.portlandlandmarks.org/observatory",
+        "picture": "https://d3qyu496o2hwvq.cloudfront.net/wp-content/uploads/2020/04/PMorneau_PortlandObservatory_HR_12-2-713x475.jpg",
+        "summary": "The Portland Observatory is a historic maritime signal tower at 138 Congress Street in the Munjoy Hill section of Portland, Maine.",
+        "points": 25,
+        "city_id": 12
+    },
+    {
+        "name": "SPACE Gallery",
+        "link": "https://space538.org/",
+        "picture": "https://www.creativeportland.com/sites/default/files/wpuploads/uploads/2012/01/IMG_20120125_182458.jpg",
+        "summary": "Contemporary arts venue showcasing offbeat exhibits, films & concerts by emerging artists.",
+        "points": 20,
+        "city_id": 12
+    },
+    {
+        "name": "Damnationland",
+        "link": "http://www.damnationland.com/",
+        "picture": "https://www.rossmorinfilm.com/uploads/5/9/1/2/59128335/14853005-1674448169247747-1315353801805683408-o_orig.jpg",
+        "summary": "Damnationland presents genre-defying original works that redefine the classic thriller and horror categories.",
+        "points": 15,
+        "city_id": 12
+    },
+    {
+        "name": "Portland Museum of Art",
+        "link": "https://www.portlandmuseum.org/",
+        "picture": "https://media.cntraveler.com/photos/5d657406cac60b0009666b39/16:9/w_2560%2Cc_limit/The-Portland-Museum-of-Art_ERINLITTLE_PMA2-0837.jpg",
+        "summary": "The Portland Museum of Art, or PMA, is the largest and oldest public art institution in the U.S. state of Maine.",
+        "points": 10,
+        "city_id": 12
+    },
+    {
+        "name": "Portland Headlight",
+        "link": "https://portlandheadlight.com/",
+        "picture": "http://portlandheadlight.com/wp-content/uploads/the-wave-portland-head-lighthouse-benjamin-williamson.jpg",
+        "summary": "Portland Head Light is a historic lighthouse in Cape Elizabeth, Maine. The light station sits on a head of land at the entrance of the primary shipping channel into Portland Harbor.",
+        "points": 5,
+        "city_id": 12
+    },
+    {
+        "name": "First Sunday Arts Festival",
+        "link": "https://www.firstsundayarts.com/",
+        "picture": "https://assets.simpleviewinc.com/simpleview/image/upload/crm/annapolis/Product0-9e27c1f25056a36_9e27c3a9-5056-a36a-0b473c380661eca5.jpg",
+        "summary": "130+ local and regional artists and crafters selling pottery, jewelry, wood turnings, clothes, furniture, blown and fused glass, photography, paintings and more.",
+        "points": 25,
+        "city_id": 13
+    },
+    {
+        "name": "Great Frogs Winery",
+        "link": "https://www.greatfrogs.com/",
+        "picture": "http://3.bp.blogspot.com/-fw8CIw8JBHw/Vb6aeYDt33I/AAAAAAAAZD4/aIZd1BW8L4A/s1600/Photo%2BAug%2B02%252C%2B4%2B59%2B36%2BPM.jpg",
+        "summary": "Locally grown & produced wines with rustic expression, and artisan approach.",
+        "points": 20,
+        "city_id": 13
+    },
+    {
+        "name": "William Peca House and Garden",
+        "link": "http://www.annapolis.org/",
+        "picture": "https://www.annapolis.org/uploads/pacagardenheaderm.jpg",
+        "summary": "The William Paca House is an 18th-century Georgian mansion in Annapolis, Maryland.",
+        "points": 15,
+        "city_id": 13
+    },
+    {
+        "name": "Naval Academy Football",
+        "link": "https://navysports.com/sports/football/schedule/",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/9f/2005_Stanford-Navy_Game_at_Navy-Marine_Corps_Memorial_Stadium.jpg",
+        "summary": "Every Naval Academy home game, the city swells to capacity with fans from all around flooding into the Navy-Marine Corps Memorial Stadium to catch the Midshipmen in action.",
+        "points": 10,
+        "city_id": 13
+    },
+    {
+        "name": "Annapolis Summer Garden Theatre",
+        "link": "https://summergarden.com/",
+        "picture": "https://summergarden.com/wp-content/uploads/2015/10/Aerial-Photo-for-web.jpg",
+        "summary": "Longtime community theater led by volunteers showcasing musicals on an outdoor stage during summer.",
+        "points": 5,
+        "city_id": 13
+    },
+    {
+        "name": "Jailbreak",
+        "link": "https://www.facebook.com/jailbreakchs/",
+        "picture": "https://theartmag.com/wp-content/uploads/2013/11/Peforming_JB4_karson-0174-472x315.jpg",
+        "summary": "Live Music Venue in Charleston, South Carolina.",
+        "points": 25,
+        "city_id": 14
+    },
+    {
+        "name": "Holy City Magic",
+        "link": "https://holycitymagic.com/",
+        "picture": "https://img1.wsimg.com/isteam/ip/43d6f6ca-6c9b-485c-9a48-8959cf462122/o.jpg/:/rs=w:1240,h:620,cg:true,m/cr=w:1240,h:620",
+        "summary": "We are an intimate magic themed theater and bar located in downtown Charleston, SC. Our intimate 46-seat theater and speakeasy style bar is situated in the heart of the upper King Street district at 49 1/2 John Street (corner of King/John).",
+        "points": 20,
+        "city_id": 14
+    },
+    {
+        "name": "Magnolia Plantation and Gardens",
+        "link": "https://www.magnoliaplantation.com/",
+        "picture": "https://www.scpictureproject.org/wp-content/uploads/white-bridge-magnolia-plantation.jpg",
+        "summary": "Magnolia Plantation and Gardens is a historic house with gardens. It is one of the oldest plantations in the South, and listed on the National Register of Historic Places.",
+        "points": 15,
+        "city_id": 14
+    },
+    {
+        "name": "The Old Charleston Jail",
+        "link": "https://www.bulldogtours.com/tours/charleston-haunted-jail-tour/3",
+        "picture": "https://www.scpictureproject.org/wp-content/uploads/old-charleston-jail-rear.jpg",
+        "summary": "The Old Charleston Jail is a site of historical and architectural significance in Charleston, South Carolina.",
+        "points": 10,
+        "city_id": 14
+    },
+    {
+        "name": "The Black Fedora Comedy Mystery Theatre",
+        "link": "https://www.charlestonmysteries.com/",
+        "picture": "https://media-cdn.tripadvisor.com/media/photo-s/04/46/f1/50/fun-at-the-fedora.jpg",
+        "summary": "Interactive comedy-mystery shows performed in a cozy venue with a bar serving beer, wine & dessert.",
+        "points": 5,
+        "city_id": 14
     }
 ]
