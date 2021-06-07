@@ -4,14 +4,17 @@
     <p class="lead">A post-pandemic travel guide for those who want to escape on a budget!</p>
   </div>
 </div>
-<div class="container d-flex flex-wrap justify-content-center w-100">
+<div class="container-fluid d-flex flex-wrap justify-content-between w-100">
     {{#each cities as |city|}}
-    <div class="card text-center col-md-5 col-sm-12 d-flex align-items-stretch m-2 justify-content-cent">
-    <img class="card-img-top img-fluid" src="{{city.picture}}" alt="Card image cap">
-    <div class="card-body">
-    <h5 class="card-title">{{city.name}}</h5>
-    <a href="/city/{{city.id}}" class="btn btn-primary" style="background-color: #e7514c;">Check Out The City!</a>
-  </div>
-  </div>
+    <div class="container-fluid col-md-4 col-sm-12">
+        <a href="/city/{{city.id}}">
+        <div class="card bg-dark text-white">
+            <img class="card-img img-fluid home-card-img" src="{{city.picture}}" alt="Card image">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">{{city.name}}</h5>
+                </div>
+        </div>
+        </a>
+    </div>
     {{/each}}
 </div>

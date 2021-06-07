@@ -2,10 +2,11 @@
   height: 70px;
 }
 
-.card-img-top {
-  height: 75%;
+.home-card-img {
   width: auto;
-  padding: 5%
+  height: 100%;
+  object-fit: cover;
+  align-self: center;
 }
 
 .jumbotron {
@@ -16,4 +17,16 @@
 
 body {
   background-color: #f4d44c;
+}
+
+.eat-cards {
+  background-color: #b5dbe3;
+}
+
+.ent-cards {
+    background-color: #b5dbe3;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
 }
