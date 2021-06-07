@@ -1,7 +1,7 @@
 [
     {
         "name": "Richmond, VA",
-        "picture": "https://cdn-image.departures.com/sites/default/files/1539117336/monument-avenue-richmond-virginia-RICHMOND1018.jpg"
+        "picture": "https://lp-cms-production.imgix.net/2019-06/18ed65edb72cf3d44d1db6ba481305a0-richmond.jpg?auto=compress&fit=crop&fm=auto&sharp=10&vib=20&w=1200&h=800"
 
     },
     {
@@ -11,50 +11,50 @@
     },
     {
         "name": "Bend, OR",
-        "picture": "https://traveloregon.com/wp-content/uploads/2018/08/2018BendFall_oldmill.jpg"
+        "picture": "https://res.cloudinary.com/sagacity/image/upload/c_crop,h_2419,w_3629,x_407,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1200/0518-bend-panorama_upm4it.jpg"
     },
     {
         "name": "St. Petersburg, FL",
-        "picture": "https://www.visitflorida.com/content/dam/visitflorida/en-us/images/cities/st-petersburg/st.%20pete%201.jpg.1200.630.rendition"
+        "picture": "https://pbs.twimg.com/media/EnCNr2JWEAEPPTs.jpg"
     },
     {
         "name": "Oklahoma City, OK",
-        "picture": "https://www.tripsavvy.com/thmb/Vs8jDW2dhJdbtnY0Td27m_ATj2A=/2121x1414/filters:fill(auto,1)/OK-City-5c3fdee246e0fb00019f5e31.jpg"
+        "picture": "https://americafromtheroad.com/wp-content/uploads/2019/12/Bricktown-District-Oklahoma-City.jpg"
     },
     {
         "name": "Greenville, SC",
-        "picture": "https://i.pinimg.com/originals/44/b0/f1/44b0f1b8e2c03436a49ea440c5b18f37.jpg"
+        "picture": "https://enviro-master.com/wp-content/uploads/2019/11/commercial-cleaning-Greenville-SC.jpg"
     },
     {
         "name": "Grand Rapids, MI",
-        "picture": "https://www.outfrontmedia.com/-/media/images/ofm/markets/grand-rapids/grand-rapids-hero.jpg"
+        "picture": "https://enviro-master.com/wp-content/uploads/2019/11/commercial-cleaning-GrandRapids-MI.jpg"
     },
     {
         "name": "Ft. Collins, CO",
-        "picture": "https://res.cloudinary.com/simpleview/image/upload/v1530210007/clients/fortcollinsco/c01a93d5_a615_4835_bcbc_dbed12db2c9d_b89ccece-8f73-4b69-ab3b-a96fe2545e9e.jpg"
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Downtown_Fort_Collins_Colorado.jpg/1200px-Downtown_Fort_Collins_Colorado.jpg"
     },
     {
         "name": "Kansas City, MO",
-        "picture": "https://livability.com/sites/default/files/KansasCityMO-DowntownCityscape.jpg"
+        "picture": "https://pbs.twimg.com/media/CyIaijRUcAAtbfp.jpg"
     },
     {
         "name": "Chattanooga, TN",
-        "picture": "https://livability.com/sites/default/files/ChattanoogaTN-BridgesAerialOfDowntown.jpg"
+        "picture": "https://bcbstwelltuned.com/wp-content/uploads/2016/10/downtownchattanooga.jpg"
     },
     {
         "name": "Tuscon, AZ",
-        "picture": "https://www.visitarizona.com/imager/s3_us-west-1_amazonaws_com/aot-2020/images/tucson-overview_3ce490d7a910257e724bc5c690f6db49.png"
+        "picture": "https://images1.phoenixnewtimes.com/imager/u/original/9490555/tucson-studioonenine-shutterstock_43919077.jpg"
     },
     {
         "name": "Portland, ME",
-        "picture": "https://wolfcoveinn.com/wp-content/uploads/2018/05/portland-lighthouse-slide.jpg"
+        "picture": "https://www.powerandmotoryacht.com/.image/t_share/MTUwMTAzMDY1MDUzMzA4Njk4/portland-maine.jpg"
     },
     {
         "name": "Annapolis, MD",
-        "picture": "https://www.extraspace.com/blog/wp-content/uploads/2020/07/living-in-annapolis-local-history.jpg"
+        "picture": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/annapolis/Magical_for_Over_300_Years_1__f95ca460-edf8-47a1-abbd-b471c717d0ce.jpg"
     },
     {
         "name": "Charleston, SC",
-        "picture": "https://cdn.palmbeachillustrated.com/wp-content/uploads/sites/78/2020/09/iStock-956123748.jpg"
+        "picture": "https://www.allinonecharters.com/wp-content/uploads/2019/07/Top-Attractions-to-Experience-in-Charleston-SC-2.jpeg"
     }
 ]
