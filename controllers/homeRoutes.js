@@ -1,7 +1,8 @@
 const router = require('express').Router();
 const { City, User, Entertainment, Eat } = require('../models');
+const withAuth = require('../utils/auth');
 
-router.get('/', (req, res) => {
+router.get('/', withAuth, (req, res) => {
    console.log(req.session);
 
    City.findAll()
@@ -27,7 +28,7 @@ router.get('/login', (req, res) => {
    res.render('loginandout');
 });
 
-router.get('/city/:id', async (req, res) => {
+router.get('/city/:id', withAuth, async (req, res) => {
    try {
       const cityData = await City.findByPk(req.params.id);
       const eatData = await Eat.findAll({where: {"city_id": req.params.id}});
