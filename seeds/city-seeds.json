@@ -1,47 +1,60 @@
 [
     {
-        "name": "Richmond, VA"
+        "name": "Richmond, VA",
+        "picture": "https://cdn-image.departures.com/sites/default/files/1539117336/monument-avenue-richmond-virginia-RICHMOND1018.jpg"
 
     },
     {
-        "name": "Asheville, NC"
+        "name": "Asheville, NC",
+        "picture": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/asheville/DSC_0651_016ebbe2-0955-4e8e-a474-f8b54c7d31ca.jpg"
 
     },
     {
-        "name": "Bend, OR"
+        "name": "Bend, OR",
+        "picture": "https://traveloregon.com/wp-content/uploads/2018/08/2018BendFall_oldmill.jpg"
     },
     {
-        "name": "St. Petersburg, FL"
+        "name": "St. Petersburg, FL",
+        "picture": "https://www.visitflorida.com/content/dam/visitflorida/en-us/images/cities/st-petersburg/st.%20pete%201.jpg.1200.630.rendition"
     },
     {
-        "name": "Oklahoma City, OK"
+        "name": "Oklahoma City, OK",
+        "picture": "https://www.tripsavvy.com/thmb/Vs8jDW2dhJdbtnY0Td27m_ATj2A=/2121x1414/filters:fill(auto,1)/OK-City-5c3fdee246e0fb00019f5e31.jpg"
     },
     {
-        "name": "Greenville, SC"
-
+        "name": "Greenville, SC",
+        "picture": "https://i.pinimg.com/originals/44/b0/f1/44b0f1b8e2c03436a49ea440c5b18f37.jpg"
     },
     {
-        "name": "Grand Rapids, MI"
+        "name": "Grand Rapids, MI",
+        "picture": "https://www.outfrontmedia.com/-/media/images/ofm/markets/grand-rapids/grand-rapids-hero.jpg"
     },
     {
-        "name": "Ft. Collins, CO"
+        "name": "Ft. Collins, CO",
+        "picture": "https://res.cloudinary.com/simpleview/image/upload/v1530210007/clients/fortcollinsco/c01a93d5_a615_4835_bcbc_dbed12db2c9d_b89ccece-8f73-4b69-ab3b-a96fe2545e9e.jpg"
     },
     {
-        "name": "Kansas City, MO"
+        "name": "Kansas City, MO",
+        "picture": "https://livability.com/sites/default/files/KansasCityMO-DowntownCityscape.jpg"
     },
     {
-        "name": "Chattanooga, TN"
+        "name": "Chattanooga, TN",
+        "picture": "https://livability.com/sites/default/files/ChattanoogaTN-BridgesAerialOfDowntown.jpg"
     },
     {
-        "name": "Tuscon, AZ"
+        "name": "Tuscon, AZ",
+        "picture": "https://www.visitarizona.com/imager/s3_us-west-1_amazonaws_com/aot-2020/images/tucson-overview_3ce490d7a910257e724bc5c690f6db49.png"
     },
     {
-        "name": "Portland, ME"
+        "name": "Portland, ME",
+        "picture": "https://wolfcoveinn.com/wp-content/uploads/2018/05/portland-lighthouse-slide.jpg"
     },
     {
-        "name": "Annapolis, MD"
+        "name": "Annapolis, MD",
+        "picture": "https://www.extraspace.com/blog/wp-content/uploads/2020/07/living-in-annapolis-local-history.jpg"
     },
     {
-        "name": "Charleston, SC"
+        "name": "Charleston, SC",
+        "picture": "https://cdn.palmbeachillustrated.com/wp-content/uploads/sites/78/2020/09/iStock-956123748.jpg"
     }
 ]

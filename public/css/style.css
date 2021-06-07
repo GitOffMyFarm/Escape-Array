@@ -1,3 +1,22 @@
 #ourlogo {
   height: 70px;
 }
+
+.card-img-top {
+  height: 80%;
+  width: auto;
+}
+
+.jumbotron {
+    color: #e7514c;
+    background-color: #f4d44c;
+    text-align: center;
+}
+
+body {
+  background-color: #f4d44c;
+}
+
+.btn-primary {
+  background-color: #e7514c;
+}
