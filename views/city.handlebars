@@ -1,15 +1,33 @@
-<h2>{{city.name}}</h2>
-
-{{#each eats as |eat|}}
-<h2>{{eat.name}}</h2>
-<img src="{{eat.picture}}">
-<a href="{{eat.link}}">Website</a>
-<p>{{eat.summary}}</p>
-{{/each}}
-
-{{#each ents as |ent|}}
-<h2>{{ent.name}}</h2>
-<img src="{{ent.picture}}">
-<a href="{{ent.link}}">Website</a>
-<p>{{ent.summary}}</p>
-{{/each}}
+<div class="container d-flex flex-row w-50 flex-wrap"></div>
+    <div class="container d-flex flex-column">
+        <div class="card bg-dark text-white">
+            <img class="card-img" src="{{city.picture}}" alt="Card image">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">{{city.name}}</h5>
+                </div>
+        </div>
+        {{#each eats as |eat|}}
+    <div class="card">
+            <img class="card-img-top" src="{{eat.picture}}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{eat.name}}</h5>
+                <p class="card-text">{{eat.summary}}</p>
+                <a href="#" class="{{eat.link}}">Visit their website</a>
+            </div>
+    </div>
+        {{/each}}
+    </div>
+    <div class="container d-flex flex-column w-25">
+        <h2>ENTERTAINMENT</h2>
+        {{#each ents as |ent|}}
+        <div class="card">
+            <img class="card-img-top" src="{{ent.picture}}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{ent.name}}</h5>
+                <p class="card-text">{{ent.summary}}</p>
+                <a href="#" class="{{ent.link}}">Visit their website</a>
+            </div>
+    </div>
+        {{/each}}
+    </div>
+</div>
