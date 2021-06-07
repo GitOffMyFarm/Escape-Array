@@ -1,4 +1,4 @@
-<div class="container d-flex flex-column w-50 flex-wrap">
+<div class="container d-flex flex-column w-50 flex-wrap w-100">
     <div class="container">
         <div class="card bg-dark text-white">
             <img class="card-img img-fluid" src="{{city.picture}}" alt="Card image">
@@ -8,29 +8,33 @@
         </div>
     </div>
     <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 uniform-cards">
         <h2>EATS</h2>
         {{#each eats as |eat|}}
     <div class="card eat-cards">
-            <img class="card-img-top" src="{{eat.picture}}" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="{{eat.picture}}" alt="Card image cap" style="height: 50%;">
             <div class="card-body">
                 <h5 class="card-title">{{eat.name}}</h5>
                 <p class="card-text">{{eat.summary}}</p>
-                <a href="#" class="{{eat.link}}">Visit their website</a>
+                <a href="{{eat.link}}" target="_blank">Visit their website</a>
             </div>
     </div>
         {{/each}}
     </div>
-    <div class="container">
+    <div class="col-lg-6 col-md-6 col-sm-12 uniform-cards">
         <h2>ENTERTAINMENT</h2>
         {{#each ents as |ent|}}
         <div class="card ent-cards">
-            <img class="card-img-top" src="{{ent.picture}}" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="{{ent.picture}}" alt="Card image cap" style="height: 50%;">
             <div class="card-body">
                 <h5 class="card-title">{{ent.name}}</h5>
                 <p class="card-text">{{ent.summary}}</p>
-                <a href="#" class="{{ent.link}}">Visit their website</a>
+                <a href="{{ent.link}}" target="_blank">Visit their website</a>
             </div>
     </div>
         {{/each}}
+        </div>
+        </div>
 </div>
 </div>
