@@ -30,3 +30,11 @@ body {
 h1 {
   font-family: 'Fredoka One', cursive;
 }
+
+.uniform-cards {
+  height: 10vw;
+}
+
+.uniform-cards img {
+  height: 50%;
+}
