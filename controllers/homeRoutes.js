@@ -2,21 +2,21 @@ const router = require('express').Router();
 const { City, User, Entertainment, Eat } = require('../models');
 const withAuth = require('../utils/auth');
 
-router.get('/', (req, res) => {
-   console.log(req.session);
+router.get('/', async (req, res) => {
+   try {
+      console.log(req.session);
+      cityData = await City.findAll();
 
-   City.findAll()
-   .then(cityData => {
-         console.log(cityData[0]);
+      console.log(cityData[0]);
          const cities = cityData.map(city => city.get({ plain: true }));
          res.render('homepage', { 
             cities, 
             loggedIn: req.session.loggedIn});
-      })
-      .catch(err => {
-         console.log(err);
+      
+   } catch (error) {
+      console.log(err);
          res.status(500).json(err);
-      });
+   }
 });
 
 router.get('/login', (req, res) => {

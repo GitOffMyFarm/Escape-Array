@@ -1,7 +1,6 @@
 # Pandamic Escape Array
   
   # Table of Content
-  1. [Title](#Title)
   2. [Criteria](#Criteria)
   3. [Description](#Description)
   4. [Installation](#Installation)
@@ -12,32 +11,30 @@
   9. [Tests](#Tests)
   10. [Github](#Github)
   11. [E-mail](#Email)  
-  
-  ##Acceptance Criteria
-  All acceotance criteria meet. All listed at the end of this file.
+
   ## Description
-  This app was designed and bult by four Bootcamp students. It use the MVC paradigm, created Server-side API, have user authentication, and connected to the database. App is help to get back to our regular with out much impact on our pocket.
+  Because people are so eager to get out and see the world but are still suffering from the economic devastation of the pandemic, we curated a list of cheaper places and activities in those places so that people could see the world on a budget!
   
   ## Installation
   Installation is not needed but it uses `express-handlebars`, `MySQL2`, `Sequelize`, `dotenv package`, `bcrypt package`,`express-session`, `connect-session-sequelize` and `NPM install` for bassic functioning. 
   
   ## Usage
-  Helping the peoples to get back to regular in easy and affordable way after COVID-19 pandemic.
+  If you're interested in inspiration for travel, log in or set up an account then start browsing our list of beautiful cities.
 
   ## Links
-  Coming soon
+  https://polar-spire-28260.herokuapp.com/
   
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Contribution
-  Dereje Atomsa (backend), Joe Freeman (backend), Kevin Carroll (Frontend) and Cameron Houck (Frontend).
+  Dereje Atomsa, Joe Freeman, Kevin Carroll, and Cameron Houck.
   
   ## Tests
   N/A
   
   ## Github
-  Joe:https://github.com/GitOffMyFarm Dereje:https://github.com/dereatom Cameron:https://github.com/CameronHouck Kevin:
+  Joe:https://github.com/GitOffMyFarm Dereje:https://github.com/dereatom Cameron:https://github.com/CameronHouck Kevin: https://github.com/kcarrol21
   
   ## E-mail
   dereje@gmail.com, joe@gmail.com, kevin@gmail.com, and cameron@gmail.com
