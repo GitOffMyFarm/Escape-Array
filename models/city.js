@@ -15,6 +15,9 @@ City.init(
             type: DataTypes.STRING,
             allowNull: false,
         },
+        picture: {
+            type: DataTypes.STRING(1000),
+        }
     },
     {
         sequelize,
