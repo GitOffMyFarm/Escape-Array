@@ -1,11 +1,14 @@
-<div class="container d-flex flex-row w-50 flex-wrap"></div>
-    <div class="container d-flex flex-column">
+<div class="container d-flex flex-column w-50 flex-wrap">
+    <div class="container">
         <div class="card bg-dark text-white">
-            <img class="card-img" src="{{city.picture}}" alt="Card image">
+            <img class="card-img img-fluid" src="{{city.picture}}" alt="Card image">
                 <div class="card-img-overlay">
                     <h5 class="card-title">{{city.name}}</h5>
                 </div>
         </div>
+    </div>
+    <div class="container">
+        <h2>EATS</h2>
         {{#each eats as |eat|}}
     <div class="card">
             <img class="card-img-top" src="{{eat.picture}}" alt="Card image cap">
@@ -17,7 +20,7 @@
     </div>
         {{/each}}
     </div>
-    <div class="container d-flex flex-column w-25">
+    <div class="container">
         <h2>ENTERTAINMENT</h2>
         {{#each ents as |ent|}}
         <div class="card">
@@ -29,5 +32,5 @@
             </div>
     </div>
         {{/each}}
-    </div>
+</div>
 </div>
