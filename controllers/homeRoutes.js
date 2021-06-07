@@ -30,14 +30,14 @@ router.get('/login', (req, res) => {
 router.get('/city/:id', async (req, res) => {
    try {
       const cityData = await City.findByPk(req.params.id);
-      const eatData = await Eat.findAll({where: {"city_id": req.params.id}});
-      const entData = await Entertainment.findAll({where: {"city_id": req.params.id}});
+      const eatData = await Eat.findAll({where: {city_id: req.params.id}});
+      const entData = await Entertainment.findAll({where: {city_id: req.params.id}});
 
       const city = cityData.get({ plain: true });
-      const eats = eatData.map((eat) => eat.get({ plain: true }));
-      const ents = entData.map((ent) => ent.get({ plain: true }));
+      const eats = eatData.map((eats) => eats.get({ plain: true }));
+      const ents = entData.map((ents) => ents.get({ plain: true }));
 
-      //res.status(200).json({ city, eat, ent });
+     // res.status(200).json({ city, eats, ents });
       res.render('city', {
          city,
          eats,
