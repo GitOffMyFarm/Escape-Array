@@ -9,12 +9,12 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 uniform-cards">
-        <h2>EATS</h2>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+        <h2 class="text-center header-text">EATS</h2>
         {{#each eats as |eat|}}
-    <div class="card eat-cards">
-            <img class="card-img-top img-fluid" src="{{eat.picture}}" alt="Card image cap" style="height: 50%;">
-            <div class="card-body">
+    <div class="card eat-cards h-25 d-flex flex-column align-items-center">
+            <img class="card-img-top img-fluid m-1 w-75" src="{{eat.picture}}" alt="Card image cap" style="height: 50%;">
+            <div class="card-body text-center d-flex flex-column justify-content-between">
                 <h5 class="card-title">{{eat.name}}</h5>
                 <p class="card-text">{{eat.summary}}</p>
                 <a href="{{eat.link}}" target="_blank">Visit their website</a>
@@ -22,12 +22,12 @@
     </div>
         {{/each}}
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-12 uniform-cards">
-        <h2>ENTERTAINMENT</h2>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        <h2 class="text-center header-text">ENTERTAINMENT</h2>
         {{#each ents as |ent|}}
-        <div class="card ent-cards">
-            <img class="card-img-top img-fluid" src="{{ent.picture}}" alt="Card image cap" style="height: 50%;">
-            <div class="card-body">
+        <div class="card h-25 ent-cards d-flex flex-column align-items-center">
+            <img class="card-img-top img-fluid m-1 w-75" src="{{ent.picture}}" alt="Card image cap" style="height: 50%;">
+            <div class="card-body text-center d-flex flex-column justify-content-between">
                 <h5 class="card-title">{{ent.name}}</h5>
                 <p class="card-text">{{ent.summary}}</p>
                 <a href="{{ent.link}}" target="_blank">Visit their website</a>
