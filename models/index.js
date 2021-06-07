@@ -1,7 +1,7 @@
-const User = require('./User');
-const City = require('./City');
-const Entertainment = require('./entertainment');
-const Eat = require('./eat');
+const User = require('/User');
+const City = require('/City');
+const Entertainment = require('/entertainment');
+const Eat = require('/eat');
 
 City.hasMany(Entertainment, {
     as: 'city_entertainment',
