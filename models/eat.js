@@ -33,6 +33,7 @@ Eat.init(
     },
     city_id: {
       type: DataTypes.INTEGER,
+      allowNull: false,
       references: {
         model: 'user',
         key: 'id',

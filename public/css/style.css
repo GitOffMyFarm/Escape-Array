@@ -1,3 +1,43 @@
 #ourlogo {
   height: 70px;
 }
+
+.home-card-img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  align-self: center;
+}
+
+.jumbotron {
+    color: #e7514c;
+    background-color: #f4d44c;
+    text-align: center;
+}
+
+body {
+  background-color: #f4d44c;
+}
+
+.eat-cards {
+  background-color: #b5dbe3;
+}
+
+.ent-cards {
+    background-color: #b5dbe3;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+}
+
+.uniform-cards {
+  height: 10vw;
+}
+
+.uniform-cards img {
+  height: 50%;
+}
+.header-text {
+  color: #e7514c;
+}

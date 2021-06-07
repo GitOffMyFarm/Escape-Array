@@ -1,47 +1,60 @@
 [
     {
-        "name": "Richmond, VA"
+        "name": "Richmond, VA",
+        "picture": "https://lp-cms-production.imgix.net/2019-06/18ed65edb72cf3d44d1db6ba481305a0-richmond.jpg?auto=compress&fit=crop&fm=auto&sharp=10&vib=20&w=1200&h=800"
 
     },
     {
-        "name": "Asheville, NC"
+        "name": "Asheville, NC",
+        "picture": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/asheville/DSC_0651_016ebbe2-0955-4e8e-a474-f8b54c7d31ca.jpg"
 
     },
     {
-        "name": "Bend, OR"
+        "name": "Bend, OR",
+        "picture": "https://res.cloudinary.com/sagacity/image/upload/c_crop,h_2419,w_3629,x_407,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1200/0518-bend-panorama_upm4it.jpg"
     },
     {
-        "name": "St. Petersburg, FL"
+        "name": "St. Petersburg, FL",
+        "picture": "https://pbs.twimg.com/media/EnCNr2JWEAEPPTs.jpg"
     },
     {
-        "name": "Oklahoma City, OK"
+        "name": "Oklahoma City, OK",
+        "picture": "https://americafromtheroad.com/wp-content/uploads/2019/12/Bricktown-District-Oklahoma-City.jpg"
     },
     {
-        "name": "Greenville, SC"
-
+        "name": "Greenville, SC",
+        "picture": "https://enviro-master.com/wp-content/uploads/2019/11/commercial-cleaning-Greenville-SC.jpg"
     },
     {
-        "name": "Grand Rapids, MI"
+        "name": "Grand Rapids, MI",
+        "picture": "https://enviro-master.com/wp-content/uploads/2019/11/commercial-cleaning-GrandRapids-MI.jpg"
     },
     {
-        "name": "Ft. Collins, CO"
+        "name": "Ft. Collins, CO",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Downtown_Fort_Collins_Colorado.jpg/1200px-Downtown_Fort_Collins_Colorado.jpg"
     },
     {
-        "name": "Kansas City, MO"
+        "name": "Kansas City, MO",
+        "picture": "https://pbs.twimg.com/media/CyIaijRUcAAtbfp.jpg"
     },
     {
-        "name": "Chattanooga, TN"
+        "name": "Chattanooga, TN",
+        "picture": "https://bcbstwelltuned.com/wp-content/uploads/2016/10/downtownchattanooga.jpg"
     },
     {
-        "name": "Tuscon, AZ"
+        "name": "Tuscon, AZ",
+        "picture": "https://images1.phoenixnewtimes.com/imager/u/original/9490555/tucson-studioonenine-shutterstock_43919077.jpg"
     },
     {
-        "name": "Portland, ME"
+        "name": "Portland, ME",
+        "picture": "https://www.powerandmotoryacht.com/.image/t_share/MTUwMTAzMDY1MDUzMzA4Njk4/portland-maine.jpg"
     },
     {
-        "name": "Annapolis, MD"
+        "name": "Annapolis, MD",
+        "picture": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/annapolis/Magical_for_Over_300_Years_1__f95ca460-edf8-47a1-abbd-b471c717d0ce.jpg"
     },
     {
-        "name": "Charleston, SC"
+        "name": "Charleston, SC",
+        "picture": "https://www.allinonecharters.com/wp-content/uploads/2019/07/Top-Attractions-to-Experience-in-Charleston-SC-2.jpeg"
     }
 ]
