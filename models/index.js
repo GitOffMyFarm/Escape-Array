@@ -1,5 +1,5 @@
-const User = require('./User');
-const City = require('./City');
+const User = require('./user');
+const City = require('./city');
 const Entertainment = require('./entertainment');
 const Eat = require('./eat');
 
