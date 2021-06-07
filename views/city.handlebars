@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
-        <h2>EATS</h2>
+        <h2 class="text-center header-text">EATS</h2>
         {{#each eats as |eat|}}
     <div class="card eat-cards h-25 d-flex flex-column align-items-center">
             <img class="card-img-top img-fluid m-1 w-75" src="{{eat.picture}}" alt="Card image cap" style="height: 50%;">
@@ -23,7 +23,7 @@
         {{/each}}
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12">
-        <h2>ENTERTAINMENT</h2>
+        <h2 class="text-center header-text">ENTERTAINMENT</h2>
         {{#each ents as |ent|}}
         <div class="card h-25 ent-cards d-flex flex-column align-items-center">
             <img class="card-img-top img-fluid m-1 w-75" src="{{ent.picture}}" alt="Card image cap" style="height: 50%;">
