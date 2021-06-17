@@ -24,6 +24,12 @@
   ## Links
   https://polar-spire-28260.herokuapp.com/
   
+  ## Screenshots
+  ![Screen1](https://user-images.githubusercontent.com/77940481/122316693-52197000-ceea-11eb-8200-598e130d71d1.JPG)
+  ![screen2](https://user-images.githubusercontent.com/77940481/122316704-56458d80-ceea-11eb-9b84-4b72492c5ee3.JPG)
+  ![screen3](https://user-images.githubusercontent.com/77940481/122316713-59d91480-ceea-11eb-8e7a-09c8995bce38.JPG)
+
+  
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
